@@ -11,7 +11,7 @@
 .collapsible {
   	background-color: #7FB3D5;
 	height: 10%; /*reactive*/
-	margin-left: 14%;
+	/*margin-left: 14%; controlled by main class*/
   	color: white;
   	cursor: pointer;
   	/*padding: 18px; /*non-reactive*/
@@ -30,7 +30,7 @@
 
 .collapsible:after {
   	content: '\002B'; /* Unicode character for "plus" sign (+) */
-  	margin-left: 14%;
+  	/*margin-left: 14%; controlled by main class*/
   	color: white;
   	font-weight: bold;
   	float: Right;
@@ -45,7 +45,7 @@
 .content {
   	padding: 0 18px;
 	width: 65%; 
-  	margin-left: 14%;
+  	/*margin-left: 14%; controlled by main class*/
  	max-height: 0;
   	overflow: hidden;
   	transition: max-height 0.2s ease-out;
