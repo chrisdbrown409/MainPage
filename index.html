@@ -14,8 +14,7 @@
 	/*margin-left: 14%; controlled by main class*/
   	color: white;
   	cursor: pointer;
-  	/*padding: 18px; /*non-reactive*/
-	padding: 1%; /*reactive*/
+  	padding: 1%; /*top,right,bottom,left*/
 	width: 80%;
   	border: none;
   	text-align: Left;
@@ -25,7 +24,7 @@
 }
 
 .active, .collapsible:hover {
-  background-color: #2471A3;
+  	background-color: #2471A3;
 }
 
 .collapsible:after {
@@ -43,7 +42,7 @@
 }
 
 .content {
-  	padding: 0 18px;
+  	padding: 0 18px; /*top,right,bottom,left*/
 	width: 80%; 
   	/*margin-left: 14%; controlled by main class*/
  	max-height: 0;
@@ -53,7 +52,6 @@
   	font-size: 12px;
 	font-family: times,serif;
 }
-  
   
 body, html {
   	height: 100%;
@@ -96,20 +94,16 @@ body {
   	width: 12%; /*repsonsive:*15*/
 	top: 32%;
 	left: 1%;
-	/*width: 130px;*/
-	/*top: 220px;*
-  	/*left: 10px;*/
   	background: White;
   	overflow-x: hidden;
-  	padding: 0px 0;
+  	padding: 0px 0; /*top,right,bottom, left */
 	font-family: times,serif;
 	/*font-family: Arial, sans-serif;*/
 	font-size: 12px;
 }
 
 .sidenav a {
-  	/*padding: 0px 8px 6px 16px; /*top,right,bottom, left */
-	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
+  	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
  	text-decoration: none;
 	text-align: Left;
 	font-family: times,serif;
@@ -119,27 +113,24 @@ body {
 }
 
 .sidenav a:hover {
-  color: #064579;
+  	color: #064579;
 }
 
 
 .main {
   	/*margin-left: 140px; /* Same width as the sidebar + left position in px */
-	padding: 0px 10px;
+	padding: 0px 10px;/*top,right,bottom,left*/
 	font-style:normal;
-	/*margin-left: 40px;*/
-	margin-left: 17%; /* Same width as the sidebar + left position in px */ /*reponsive*/
+	margin-left: 17%; /* Same width as the sidebar + left position in px */ 
 	font-family: times,serif;
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 220px;}
-  .sidenav a {font-size: 14px;}
+  	.sidenav {padding-top: 220px;}
+  	.sidenav a {font-size: 14px;}
 }
 	
  footer {
-	/*position: Fixed; this makes it sticky always at the bottom of the page*/
-	/*margin-left: 40px;*/
 	/*margin-left: 4%; controlled by main class*/
 	width: 100%;
 	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
