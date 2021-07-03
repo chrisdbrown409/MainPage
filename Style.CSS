@@ -318,17 +318,7 @@ body, html {
 .footer{
 	/*position: Fixed; this makes it sticky always at the bottom of the page*/
 	/*margin-left: 17%; controlled by main class*/
-	background-color: White;
-	color: black;
 	display: None;
-	font-family: times,serif;
-	font-size:8pt;
-  	font-style:normal;
-	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
-	left: 0;
-	bottom: 0;
-	text-align: left;
-  	width: 100%;
  	}
 }
 
