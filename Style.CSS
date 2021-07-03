@@ -207,17 +207,38 @@ p	{
 	}
 }
 
-/*settings for larger screens*/
-@media only for screen and (min-width: 601px){
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
 .sidenav a {
-   	display: inline-block;
+   	display: none;
 	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
  	text-decoration: none;
 	text-align: Left;
 	font-family: times,serif;
   	font-size: 12px;
   	color: #2196F3;
-  	display: block;
+  	}
+}
+
+
+/*settings for larger screens*/
+@media only for screen and (min-width: 601px){
+.sidenav a {
+   	display: block;
+	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
+ 	text-decoration: none;
+	text-align: Left;
+	font-family: times,serif;
+  	font-size: 12px;
+  	color: #2196F3;
+  	}
+}
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.sidenav a:hover {
+ 	display: none;
+	color: #064579;
 	}
 }
 
@@ -234,6 +255,23 @@ body, html {
 	font-family: times,serif;
     }
 
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.main {
+  	/*margin-left: 140px; /* Same width as the sidebar + left position in px */
+	margin-left: 0%; /* Same width as the sidebar + left position in px */ /*reponsive*/
+	padding: 0px 10px;
+	font-style:normal;
+	/*margin-left: 40px;*/
+	font-family: times,serif;
+	color: black;
+	}
+}
+
+
+/*settings for larger screens*/
+@media only for screen and (min-width: 601px){
 .main {
   	/*margin-left: 140px; /* Same width as the sidebar + left position in px */
 	margin-left: 17%; /* Same width as the sidebar + left position in px */ /*reponsive*/
@@ -242,15 +280,11 @@ body, html {
 	/*margin-left: 40px;*/
 	font-family: times,serif;
 	color: black;
+	}
 }
 
 
-/*
-@media screen and (max-height: 450px) {
-  	.sidenav {padding-top: 220px;}
-  	.sidenav a {font-size: 12px;}
-}
-*/
+
 
 .collapsible {
   	/**USE ON PAGE: background-color: #3a7ae0;*/
