@@ -170,19 +170,7 @@ p	{
 /*Mobile First screens*/
 @media only screen and (max-width: 600px){
 .sidenav {
-	height: 100%;
 	display: none;
-	position: absolute; /*will hold sidenav in place*/
- 	width: 12%; /*repsonsive:*15*/
-	top: 32%;
-	left: 1%;
-  	background: White;
-  	overflow-x: hidden;
-  	padding: 0px 0;
-	font-family: times,serif;
-	font-size: 12px;
-	text-align: Left;
-	z-index: 1;
 	}
 }
 
@@ -192,7 +180,7 @@ p	{
 @media only screen and (min-width: 601px){
 .sidenav {
 	height: 100%;
-	display: inline-block;
+	display: block;
 	position: absolute; /*will hold sidenav in place*/
  	width: 12%; /*repsonsive:*15*/
 	top: 32%;
@@ -211,12 +199,6 @@ p	{
 @media only screen and (max-width: 600px){
 .sidenav a {
    	display: none;
-	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
- 	text-decoration: none;
-	text-align: Left;
-	font-family: times,serif;
-  	font-size: 12px;
-  	color: #2196F3;
   	}
 }
 
@@ -238,7 +220,6 @@ p	{
 @media only screen and (max-width: 600px){
 .sidenav a:hover {
  	display: none;
-	color: #064579;
 	}
 }
 
