@@ -13,7 +13,7 @@
 h1 	{
 	border: none;
 	color: black;
-	display: inline-block;
+	display: block; /*changed all from inline-block to block*/
 	font-family: times,serif;
 	font-size: 20px;
 	font-style: normal;
@@ -29,7 +29,7 @@ h1 	{
 h1 	{
 	border: none;
 	color: black;
-	display: inline-block;
+	display: block; /*changed all from inline-block to block*/
 	font-family: times,serif;
 	font-size: 20px;
 	font-style: normal;
@@ -62,7 +62,7 @@ h2 	{
 h2 	{
 	border: none;
 	color: Black;
-	display: inline-block;
+	display: block; /*changed all from inline-block to block*/
 	font-family: times,serif;
 	font-size: 20px;
 	font-style: normal;
@@ -82,7 +82,7 @@ h2 	{
 P 	{
 	border: none;
 	color: black;
-	display: inline-block;
+	display: block; /*changed all from inline-block to block*/
 	font-family: times,serif;
 	font-size: 20px; /*from 14px*/
 	font-style: normal;
@@ -97,7 +97,7 @@ P 	{
 @media only screen and (min-width: 601px){
 p	{
 	border: none;
-	display: inline-block;
+	display: block; /*changed all from inline-block to block*/
 	color: black;
 	font-family: times,serif;
 	font-size: 14px;
@@ -125,7 +125,7 @@ p	{
 @media only screen and (max-width: 600px){
 .hero-text {
   	color: white;
-	display: inline-block;
+	display: block; /*changed all from inline-block to block*/
 	font-family: times,serif;
 	font-size:25px;
 	position: absolute;
@@ -140,7 +140,7 @@ p	{
 @media only screen and (min-width: 601px){
 .hero-text {
   	color: white;
-	display: inline-block;
+	display: block; /*changed all from inline-block to block*/
 	font-family: times,serif;
 	font-size:25px;
 	position: absolute;
@@ -242,6 +242,7 @@ body, html {
   	/*margin-left: 140px; /* Same width as the sidebar + left position in px */
 	margin-left: 17%; /* Same width as the sidebar + left position in px */ /*reponsive*/
 	padding: 0px 10px;
+	display: block; /*added block*/
 	font-style:normal;
 	/*margin-left: 40px;*/
 	font-family: times,serif;
@@ -305,7 +306,7 @@ body, html {
 	/*margin-left: 17%; controlled by main class*/
 	background-color: White;
 	color: black;
-	display: inline-block;
+	display: block;
 	font-family: times,serif;
 	font-size:12pt; /*changed from 8 to 12 for mobile*/
   	font-style:normal;
@@ -326,7 +327,7 @@ body, html {
 	/*margin-left: 17%; controlled by main class*/
 	background-color: White;
 	color: black;
-	display: inline-block;
+	display: block; /*changed all from inline-block to block*/
 	font-family: times,serif;
 	font-size:8pt;
   	font-style:normal;
