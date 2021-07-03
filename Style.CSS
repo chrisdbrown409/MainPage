@@ -1,7 +1,7 @@
 /*COMMENTS*/
 /* 07-01-2021: Created file with footer, Sidenav.*/
-/* 07-02-2021: Created all other classes, added h2.*/
-/* 07-02-2021: Created media for H1 and H2*/
+/* 07-02-2021: Created all other classes, added h2 class.*/
+/* 07-02-2021: Created media for Classes: H1, H2, P */
 /*test	3*/
 
 
@@ -88,8 +88,24 @@ h2 	{
 
 
 
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+P 	{
+	border: none;
+	color: red;
+	font-family: times,serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	outline: none;
+	padding: 0px 0px 0px 0px; /*TRBL*/
+   	text-align: Left;
+	}
+}
 
-P {
+/*settings for larger screens*/
+@media only screen and (min-width: 640px){
+p	{
 	border: none;
 	color: black;
 	font-family: times,serif;
@@ -99,7 +115,9 @@ P {
 	outline: none;
 	padding: 0px 0px 0px 0px; /*TRBL*/
    	text-align: Left;
+	}
 }
+
 
 .hero-image {
   	/*USE ON PAGE: background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("xxx");*/
