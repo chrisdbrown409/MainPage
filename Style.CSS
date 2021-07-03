@@ -165,7 +165,7 @@ p	{
 @media only screen and (min-width: 601px){
 .sidenav {
 	height: 100%;
-	display: block;
+	/*display: block;*/
 	position: absolute; /*will hold sidenav in place*/
  	width: 12%; /*repsonsive:*15*/
 	top: 32%;
