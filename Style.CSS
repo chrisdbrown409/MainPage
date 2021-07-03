@@ -70,7 +70,7 @@ h2 	{
 }
 
 /*settings for larger screens*/
-@media only screen and (min-width: 640px){
+@media only screen and (min-width: 601px){
 h2 	{
 	border: none;
 	color: Black;
@@ -104,7 +104,7 @@ P 	{
 }
 
 /*settings for larger screens*/
-@media only screen and (min-width: 640px){
+@media only screen and (min-width: 601px){
 p	{
 	border: none;
 	color: black;
