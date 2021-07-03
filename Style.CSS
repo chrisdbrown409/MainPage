@@ -28,6 +28,7 @@ h1 	{
 h1 	{
 	border: none;
 	color: Red;
+	display: none;
 	font-family: times,serif;
 	font-size: 20px;
 	font-style: normal;
@@ -43,6 +44,7 @@ h1 	{
 h1 	{
 	border: none;
 	color: black;
+	display: inline-block;
 	font-family: times,serif;
 	font-size: 20px;
 	font-style: normal;
@@ -59,6 +61,7 @@ h1 	{
 h2 	{
 	border: none;
 	color: Red;
+	display: none;
 	font-family: times,serif;
 	font-size: 20px;
 	font-style: normal;
@@ -74,6 +77,7 @@ h2 	{
 h2 	{
 	border: none;
 	color: Black;
+	display: inline-block;
 	font-family: times,serif;
 	font-size: 20px;
 	font-style: normal;
@@ -93,6 +97,7 @@ h2 	{
 P 	{
 	border: none;
 	color: red;
+	display: inline-block;
 	font-family: times,serif;
 	font-size: 14px;
 	font-style: normal;
@@ -107,6 +112,7 @@ P 	{
 @media only screen and (min-width: 601px){
 p	{
 	border: none;
+	display: inline-block;
 	color: black;
 	font-family: times,serif;
 	font-size: 14px;
