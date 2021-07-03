@@ -167,8 +167,29 @@ p	{
 }
 	
 
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.sidenav {
+	height: 100%;
+	display: none;
+	position: absolute; /*will hold sidenav in place*/
+ 	width: 12%; /*repsonsive:*15*/
+	top: 32%;
+	left: 1%;
+  	background: White;
+  	overflow-x: hidden;
+  	padding: 0px 0;
+	font-family: times,serif;
+	font-size: 12px;
+	text-align: Left;
+	z-index: 1;
+	}
+}
 
 
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
 .sidenav {
 	height: 100%;
 	display: inline-block;
@@ -183,6 +204,7 @@ p	{
 	font-size: 12px;
 	text-align: Left;
 	z-index: 1;
+	}
 }
 
 .sidenav a {
