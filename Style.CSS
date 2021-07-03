@@ -226,7 +226,7 @@ body, html {
 @media only screen and (max-width: 600px){
 .main {
   	/*margin-left: 140px; /* Same width as the sidebar + left position in px */
-	margin-left: 0%; /* Same width as the sidebar + left position in px */ /*reponsive*/
+	margin-left: 17%; /* Same width as the sidebar + left position in px */ /*reponsive*/
 	padding: 0px 10px;
 	font-style:normal;
 	/*margin-left: 40px;*/
