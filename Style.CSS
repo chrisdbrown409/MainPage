@@ -175,6 +175,25 @@ body, html {
 	font-family: times,serif;
  }
 
+table {
+  	/*margin-left: 17%; controlled in main class*/
+	width: 80%;
+	border-collapse: collapse;
+	font-family: times,serif;
+	font-size:09pt;
+ }
+
+td, th {
+  	border: 1px solid #dddddd;
+  	text-align: left;
+  	padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
 /*
 Site References:
 	1. Collapse Ref: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible
