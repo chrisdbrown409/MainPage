@@ -11,47 +11,10 @@
 <style>
 .collapsible {
   	background-color: #7FB3D5;
-	height: 10%; /*reactive*/
-	/*margin-left: 14%; controlled by main class*/
-  	color: white;
-  	cursor: pointer;
-  	padding: 1%; /*top,right,bottom,left*/
-	width: 68%;
-  	border: none;
-  	text-align: Left;
-  	outline: none;
-  	font-size: 14px;
-	font-family: times,serif;
 }
 
 .active, .collapsible:hover {
   	background-color: #2471A3;
-}
-
-.collapsible:after {
-  	content: '\002B'; /* Unicode character for "plus" sign (+) */
-  	/*margin-left: 14%; controlled by main class*/
-  	color: white;
-  	font-weight: bold;
-  	float: Right;
-  	font-size: 14px;
-	font-family: times,serif;
-}
-
-.active:after {
-  	content: "\2212"; /* Unicode character for "minus" sign (-) */
-}
-
-.content {
-  	padding: 0% 0%; /*top,right,bottom,left 18px*/
-	width: 97%; 
-  	/*margin-left: 14%; controlled by main class*/
- 	max-height: 0;
-  	overflow: hidden;
-  	transition: max-height 0.2s ease-out;
-  	background-color: #F8F9F9;
-  	font-size: 12px;
-	font-family: times,serif;
 }
   
 .hero-image {
@@ -59,7 +22,7 @@
 	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),url("https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1955&q=80/");
 }
 
-
+/*1.1f deleted collapse and content*/
 /*1.1e deleted hero classes & body*/	
 /*1.1d deleted sidnav & body*/	
 /*1.1c deleted main*/	
@@ -235,7 +198,7 @@ for (i = 0; i < coll.length; i++) {
 <div class="footer">
 	<HR>  
   		<b>Repository Information:</b><br />
-  		Version:1.1e (118d added CSS)<br />
+  		Version:1.1f (118d added CSS)<br />
   		Last Update:07-02-2021<br />
   	<HR> 
 	</DIV>
