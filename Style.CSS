@@ -2,18 +2,31 @@
 /* 07-01-2021: Created file with footer, Sidenav.*/
 /* 07-02-2021: Created all other classes, added h2 class.*/
 /* 07-02-2021: Created media for Classes: H1, H2, P */
-/*test	4*/
+/*test	3*/
 
 
 /* Add styles below this*/
+
+/*Example 2- Mobile First smallest to largest */
+/*settings for smaller screens
+h1 {
+	font-size: 30 px;
+}
+//settings for larger screens
+@media (min-width: 640px){
+h1 	{
+	font-size: 60 px;
+	}
+} 
+/*close media bracket*/
 
 
 /*Mobile First screens*/
 @media only screen and (max-width: 600px){
 h1 	{
 	border: none;
-	color: black;
-	display: block; /*changed all from inline-block to block*/
+	color: Red;
+	display: inline-block;
 	font-family: times,serif;
 	font-size: 20px;
 	font-style: normal;
@@ -29,7 +42,7 @@ h1 	{
 h1 	{
 	border: none;
 	color: black;
-	display: block; /*changed all from inline-block to block*/
+	display: inline-block;
 	font-family: times,serif;
 	font-size: 20px;
 	font-style: normal;
@@ -45,8 +58,8 @@ h1 	{
 @media only screen and (max-width: 600px){
 h2 	{
 	border: none;
-	color: black;
-	display: none;
+	color: Red;
+	display: inline-block;
 	font-family: times,serif;
 	font-size: 20px;
 	font-style: normal;
@@ -62,7 +75,7 @@ h2 	{
 h2 	{
 	border: none;
 	color: Black;
-	display: block; /*changed all from inline-block to block*/
+	display: inline-block;
 	font-family: times,serif;
 	font-size: 20px;
 	font-style: normal;
@@ -81,10 +94,10 @@ h2 	{
 @media only screen and (max-width: 600px){
 P 	{
 	border: none;
-	color: black;
-	display: block; /*changed all from inline-block to block*/
+	color: red;
+	display: inline-block;
 	font-family: times,serif;
-	font-size: 20px; /*from 14px*/
+	font-size: 14px;
 	font-style: normal;
 	font-weight: normal;
 	outline: none;
@@ -97,7 +110,7 @@ P 	{
 @media only screen and (min-width: 601px){
 p	{
 	border: none;
-	display: block; /*changed all from inline-block to block*/
+	display: inline-block;
 	color: black;
 	font-family: times,serif;
 	font-size: 14px;
@@ -125,7 +138,7 @@ p	{
 @media only screen and (max-width: 600px){
 .hero-text {
   	color: white;
-	display: block; /*changed all from inline-block to block*/
+	display: none;
 	font-family: times,serif;
 	font-size:25px;
 	position: absolute;
@@ -140,7 +153,7 @@ p	{
 @media only screen and (min-width: 601px){
 .hero-text {
   	color: white;
-	display: block; /*changed all from inline-block to block*/
+	display: inline-block;
 	font-family: times,serif;
 	font-size:25px;
 	position: absolute;
@@ -152,12 +165,11 @@ p	{
 }
 	
 
-/*Mobile First screens*/
-@media only screen and (max-width: 600px){
+
+
 .sidenav {
-	display: none;
 	height: 100%;
-	/*display: block;*/
+	display: inline-block;
 	position: absolute; /*will hold sidenav in place*/
  	width: 12%; /*repsonsive:*15*/
 	top: 32%;
@@ -169,69 +181,21 @@ p	{
 	font-size: 12px;
 	text-align: Left;
 	z-index: 1;
-	}
 }
 
-
-
-/*settings for larger screens*/
-@media only screen and (min-width: 601px){
-.sidenav {
-	height: 100%;
-	/*display: block;*/
-	position: absolute; /*will hold sidenav in place*/
- 	width: 12%; /*repsonsive:*15*/
-	top: 32%;
-	left: 1%;
-  	background: White;
-  	overflow-x: hidden;
-  	padding: 0px 0;
-	font-family: times,serif;
-	font-size: 12px;
-	text-align: Left;
-	z-index: 1;
-	}
-}
-
-/*Mobile First screens*/
-@media only screen and (max-width: 600px){
 .sidenav a {
-    	display: block;
+   	display: inline-block;
 	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
  	text-decoration: none;
 	text-align: Left;
 	font-family: times,serif;
   	font-size: 12px;
   	color: #2196F3;
-  	}
+  	display: block;
 }
 
-
-/*settings for larger screens*/
-@media only for screen and (min-width: 601px){
-.sidenav a {
-   	display: block;
-	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
- 	text-decoration: none;
-	text-align: Left;
-	font-family: times,serif;
-  	font-size: 12px;
-  	color: #2196F3;
-  	}
-}
-
-/*Mobile First screens*/
-@media only screen and (max-width: 600px){
 .sidenav a:hover {
- 	color: #064579;
-	}
-}
-
-/*settings for larger screens*/
-@media only for screen and (min-width: 601px){
-.sidenav a:hover {
- 	color: #064579;
-	}
+  color: #064579;
 }
 
 body, html {
@@ -240,9 +204,6 @@ body, html {
 	font-family: times,serif;
     }
 
-
-/*Mobile First screens*/
-@media only screen and (max-width: 600px){
 .main {
   	/*margin-left: 140px; /* Same width as the sidebar + left position in px */
 	margin-left: 17%; /* Same width as the sidebar + left position in px */ /*reponsive*/
@@ -251,26 +212,15 @@ body, html {
 	/*margin-left: 40px;*/
 	font-family: times,serif;
 	color: black;
-	}
 }
 
 
-/*settings for larger screens*/
-@media only for screen and (min-width: 601px){
-.main {
-  	/*margin-left: 140px; /* Same width as the sidebar + left position in px */
-	margin-left: 17%; /* Same width as the sidebar + left position in px */ /*reponsive*/
-	padding: 0px 10px;
-	display: block; /*added block*/
-	font-style:normal;
-	/*margin-left: 40px;*/
-	font-family: times,serif;
-	color: black;
-	}
+/*
+@media screen and (max-height: 450px) {
+  	.sidenav {padding-top: 220px;}
+  	.sidenav a {font-size: 12px;}
 }
-
-
-
+*/
 
 .collapsible {
   	/**USE ON PAGE: background-color: #3a7ae0;*/
@@ -318,51 +268,21 @@ body, html {
 	font-family: times,serif;
 }
 
-/*Mobile First screens*/
-@media only screen and (max-width: 600px){
+
 .footer{
 	/*position: Fixed; this makes it sticky always at the bottom of the page*/
 	/*margin-left: 17%; controlled by main class*/
-	background-color: White;
-	color: black;
-	display: block;
-	font-family: times,serif;
-	font-size:12pt; /*changed from 8 to 12 for mobile*/
-  	font-style:normal;
+	width: 100%;
 	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
 	left: 0;
 	bottom: 0;
-	text-align: left;
-  	width: 100%;
- 	}
-}
- 	
-
-
-/*settings for larger screens*/
-@media only screen and (min-width: 601px){
-.footer{
-	/*position: Fixed; this makes it sticky always at the bottom of the page*/
-	/*margin-left: 17%; controlled by main class*/
 	background-color: White;
 	color: black;
-	display: block; /*changed all from inline-block to block*/
-	font-family: times,serif;
-	font-size:8pt;
-  	font-style:normal;
-	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
-	left: 0;
-	bottom: 0;
 	text-align: left;
-  	width: 100%;
- 	}
-}
-
-
-
-
-
-
+  	font-size:8pt;
+  	font-style:normal;
+	font-family: times,serif;
+ }
 
 table {
   	/*margin-left: 17%; controlled in main class*/
