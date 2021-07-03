@@ -207,6 +207,8 @@ p	{
 	}
 }
 
+/*settings for larger screens*/
+@media only for screen and (min-width: 601px){
 .sidenav a {
    	display: inline-block;
 	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
@@ -216,10 +218,14 @@ p	{
   	font-size: 12px;
   	color: #2196F3;
   	display: block;
+	}
 }
 
+/*settings for larger screens*/
+@media only for screen and (min-width: 601px){
 .sidenav a:hover {
-  color: #064579;
+ 	color: #064579;
+	}
 }
 
 body, html {
