@@ -28,7 +28,7 @@ h1 	{
 h1 	{
 	border: none;
 	color: Red;
-	display: none;
+	display: inline-block;
 	font-family: times,serif;
 	font-size: 20px;
 	font-style: normal;
@@ -61,7 +61,7 @@ h1 	{
 h2 	{
 	border: none;
 	color: Red;
-	display: none;
+	display: inline-block;
 	font-family: times,serif;
 	font-size: 20px;
 	font-style: normal;
@@ -136,25 +136,44 @@ p	{
 	/*height:auto; responsive design*/
 }
 
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
 .hero-text {
-  	text-align: center;
-  	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
   	color: white;
+	display: none;
 	font-family: times,serif;
 	font-size:25px;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	text-align: center;
+	transform: translate(-50%, -50%);
+  	}
 }
   
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+.hero-text {
+  	color: white;
+	display: inline-block;
+	font-family: times,serif;
+	font-size:25px;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	text-align: center;
+	transform: translate(-50%, -50%);
+  	}	
+}
+	
+
 
 
 .sidenav {
 	height: 100%;
-	text-align: Left;
-  	position: absolute; /*will hold sidenav in place*/
- 	 z-index: 1;
-  	width: 12%; /*repsonsive:*15*/
+	display: inline-block;
+	position: absolute; /*will hold sidenav in place*/
+ 	width: 12%; /*repsonsive:*15*/
 	top: 32%;
 	left: 1%;
   	background: White;
@@ -162,10 +181,13 @@ p	{
   	padding: 0px 0;
 	font-family: times,serif;
 	font-size: 12px;
+	text-align: Left;
+	z-index: 1;
 }
 
 .sidenav a {
-   	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
+   	display: inline-block;
+	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
  	text-decoration: none;
 	text-align: Left;
 	font-family: times,serif;
