@@ -41,7 +41,7 @@ h2 {
 	font-family: times,serif;
 	font-size: 20px;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: bold;
 	outline: none;
 	padding: 0px 0px 0px 0px; /*TRBL*/
    	text-align: Left;
@@ -92,20 +92,15 @@ P {
   	width: 12%; /*repsonsive:*15*/
 	top: 32%;
 	left: 1%;
-	/*width: 130px;*/
-	/*top: 220px;*
-  	/*left: 10px;*/
   	background: White;
   	overflow-x: hidden;
   	padding: 0px 0;
 	font-family: times,serif;
-	/*font-family: Arial, sans-serif;*/
 	font-size: 12px;
 }
 
 .sidenav a {
-   	/*padding: 0px 8px 6px 16px; /*top,right,bottom, left */
-	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
+   	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
  	text-decoration: none;
 	text-align: Left;
 	font-family: times,serif;
@@ -124,21 +119,15 @@ body, html {
 	font-family: times,serif;
     }
 
-
-
-
 .main {
   	/*margin-left: 140px; /* Same width as the sidebar + left position in px */
+	margin-left: 17%; /* Same width as the sidebar + left position in px */ /*reponsive*/
 	padding: 0px 10px;
 	font-style:normal;
 	/*margin-left: 40px;*/
-	margin-left: 17%; /* Same width as the sidebar + left position in px */ /*reponsive*/
 	font-family: times,serif;
 	color: black;
 }
-
-
-
 
 
 /*
