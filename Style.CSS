@@ -270,21 +270,49 @@ body, html {
 	font-family: times,serif;
 }
 
-
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
 .footer{
 	/*position: Fixed; this makes it sticky always at the bottom of the page*/
 	/*margin-left: 17%; controlled by main class*/
-	width: 100%;
+	background-color: White;
+	color: black;
+	display: None;
+	font-family: times,serif;
+	font-size:8pt;
+  	font-style:normal;
 	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
 	left: 0;
 	bottom: 0;
+	text-align: left;
+  	width: 100%;
+ 	}
+}
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+.footer{
+	/*position: Fixed; this makes it sticky always at the bottom of the page*/
+	/*margin-left: 17%; controlled by main class*/
 	background-color: White;
 	color: black;
-	text-align: left;
-  	font-size:8pt;
-  	font-style:normal;
+	display: inline-block;
 	font-family: times,serif;
- }
+	font-size:8pt;
+  	font-style:normal;
+	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
+	left: 0;
+	bottom: 0;
+	text-align: left;
+  	width: 100%;
+ 	}
+}
+
+
+
+
+
+
 
 table {
   	/*margin-left: 17%; controlled in main class*/
