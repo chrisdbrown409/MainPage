@@ -1,6 +1,7 @@
 /*COMMENTS*/
 /* 07-01-2021: Created file with footer, Sidenav.*/
-/* 07-02-2021: Created file all other classes, added h2.*/
+/* 07-02-2021: Created all other classes, added h2.*/
+/* 07-02-2021: Created media for H1 and H2*/
 /*test	3*/
 
 
@@ -23,7 +24,7 @@ h1 	{
 
 
 /*Mobile First screens*/
-@media {max-width: 600px)
+@media only screen and (max-width: 600px){
 h1 	{
 	border: none;
 	color: Red;
@@ -38,7 +39,7 @@ h1 	{
 }
 
 /*settings for larger screens*/
-@media (min-width: 601px){
+@media only for screen and (min-width: 601px){
 h1 	{
 	border: none;
 	color: black;
@@ -54,7 +55,7 @@ h1 	{
 	
 
 /*Mobile First screens*/
-@media {
+@media only screen and (max-width: 600px){
 h2 	{
 	border: none;
 	color: Red;
@@ -69,7 +70,7 @@ h2 	{
 }
 
 /*settings for larger screens*/
-@media (min-width: 640px){
+@media only screen and (min-width: 640px){
 h2 	{
 	border: none;
 	color: Black;
