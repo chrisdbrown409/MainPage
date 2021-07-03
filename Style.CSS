@@ -22,7 +22,7 @@ h1 	{
 /*close media bracket*/
 
 
-//Mobile First screens
+/*Mobile First screens*/
 @media {
 h1 	{
 	border: none;
@@ -37,7 +37,7 @@ h1 	{
 	}
 }
 
-//settings for larger screens
+/*settings for larger screens*/
 @media (min-width: 640px){
 h1 	{
 	border: none;
@@ -53,10 +53,11 @@ h1 	{
 }
 	
 
-
-h2 {
+/*Mobile First screens*/
+@media {
+h2 	{
 	border: none;
-	color: black;
+	color: Red;
 	font-family: times,serif;
 	font-size: 20px;
 	font-style: normal;
@@ -64,7 +65,27 @@ h2 {
 	outline: none;
 	padding: 0px 0px 0px 0px; /*TRBL*/
    	text-align: Left;
+	}
 }
+
+/*settings for larger screens*/
+@media (min-width: 640px){
+h2 	{
+	border: none;
+	color: Black;
+	font-family: times,serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	outline: none;
+	padding: 0px 0px 0px 0px; /*TRBL*/
+   	text-align: Left;
+	}
+}
+
+
+
+
 
 
 P {
