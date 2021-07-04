@@ -12,7 +12,7 @@
 @media only screen and (max-width: 600px){
 h1 	{
 	border: none;
-	color: black;
+	color: red;
 	display: inline-block;
 	font-family: times,serif;
 	font-size: 20px;
@@ -48,7 +48,7 @@ h2 	{
 	color: black;
 	display: none; /*changed to none*/
 	font-family: times,serif;
-	font-size: 20px;
+	font-size: 20px; 
 	font-style: normal;
 	font-weight: bold;
 	outline: none;
@@ -84,7 +84,7 @@ P 	{
 	color: black;
 	display: inline-block;
 	font-family: times,serif;
-	font-size: 24px; /*changed from 14px to 24px for mobile */
+	font-size: 20px; /*changed from 14px to 20px for mobile */
 	font-style: normal;
 	font-weight: normal;
 	outline: none;
