@@ -151,7 +151,24 @@ p	{
   	}	
 }
 	
-
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.sidenav {
+	height: 100%;
+	display: inline-block;
+	position: absolute; /*will hold sidenav in place*/
+ 	width: 12%; /*repsonsive:*15*/
+	top: 32%;
+	left: 1%;
+  	background: White;
+  	overflow-x: hidden;
+  	padding: 0px 0;
+	font-family: times,serif;
+	font-size: 12px;
+	text-align: Left;
+	z-index: 1;
+	}
+}
 
 /*settings for larger screens*/
 @media only screen and (min-width: 601px){
@@ -171,6 +188,21 @@ p	{
 	z-index: 1;
 	}
 }
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.sidenav a {
+   	display: inline-block;
+	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
+ 	text-decoration: none;
+	text-align: Left;
+	font-family: times,serif;
+  	font-size: 12px;
+  	color: #2196F3;
+  	display: block;
+	}
+}
+
 
 /*settings for larger screens*/
 @media only screen and (min-width: 601px){
@@ -197,6 +229,20 @@ body, html {
 	font-family: times,serif;
     }
 
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.main {
+  	/*margin-left: 140px; /* Same width as the sidebar + left position in px */
+	margin-left: 17%; /* Same width as the sidebar + left position in px */ /*reponsive*/
+	padding: 0px 10px;
+	font-style:normal;
+	/*margin-left: 40px;*/
+	font-family: times,serif;
+	color: black;
+	}
+	}
+
+
 /*settings for larger screens*/
 @media only screen and (min-width: 601px){
 .main {
@@ -209,6 +255,27 @@ body, html {
 	color: black;
 	}
 	}
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.collapsible {
+  	/**USE ON PAGE: background-color: #3a7ae0;*/
+	height: 10%; /*reactive*/
+	/*margin-left: 14%; controlled by main class*/
+  	color: white;
+  	cursor: pointer;
+  	/*padding: 18px; /*non-reactive*/
+	padding: 1%; /*reactive*/
+	width: 65%;
+  	border: none;
+  	text-align: Left;
+  	outline: none;
+  	font-size: 14px;
+	font-family: times,serif;
+	}
+}
+
+
 
 /*settings for larger screens*/
 @media only screen and (min-width: 601px){
@@ -234,8 +301,8 @@ body, html {
   	/**USE ON PAGE: background-color: #2a61b8;*/
 }
 
-/*settings for larger screens*/
-@media only screen and (min-width: 601px){
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
 .collapsible:after {
   	content: '\002B'; /* Unicode character for "plus" sign (+) */
   	/*margin-left: 14%; controlled by main class*/
@@ -249,10 +316,49 @@ body, html {
 
 /*settings for larger screens*/
 @media only screen and (min-width: 601px){
+.collapsible:after {
+  	content: '\002B'; /* Unicode character for "plus" sign (+) */
+  	/*margin-left: 14%; controlled by main class*/
+  	color: white;
+  	font-weight: bold;
+  	float: right;
+  	font-size: 14px;
+	font-family: times,serif;
+	}
+}
+
+
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
 .active:after {
   content: "\2212"; /* Unicode character for "minus" sign (-) */
 }
 }
+	
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+.active:after {
+  content: "\2212"; /* Unicode character for "minus" sign (-) */
+}
+}
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.content {
+  	padding: 0% 0%; /*top,right,bottom,left 18px*/
+	width: 91%; 
+  	/*margin-left: 14%; controlled by main class*/
+ 	max-height: 0;
+  	overflow: hidden;
+  	transition: max-height 0.2s ease-out;
+  	background-color: #F8F9F9;
+  	font-size: 12px;
+	font-family: times,serif;
+}
+}
+
 
 /*settings for larger screens*/
 @media only screen and (min-width: 601px){
