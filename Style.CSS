@@ -337,17 +337,17 @@ body, html {
 /*Mobile First screens*/
 @media only screen and (max-width: 600px){
 .active:after {
-	/*content: "\2212"; /* Unicode character for "minus" sign (-) */
-	content: "U+25BC;"; /* Unicode character for "minus" sign (-) */
-}
+	content: "\2212"; /* Unicode character for "minus" sign (-) */
+	/*content: "U+25BC;"; /* Unicode character for "minus" sign (-) */
+	}
 }
 	
 
 /*settings for larger screens*/
 @media only screen and (min-width: 601px){
 .active:after {
-	/* content: "\2212"; /* Unicode character for "minus" sign (-) */
-	content: "U+25BC;"; /* Unicode character for "minus" sign (-) */
+	content: "\2212"; /* Unicode character for "minus" sign (-)
+	/*content: "U+25BC;"; /* Unicode character for "minus" sign (-) */
 	}
 }
 
