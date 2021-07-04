@@ -1,4 +1,5 @@
 /*COMMENTS*/
+/* Restore Point: All is working now */
 /* 07-01-2021: Created file with footer, Sidenav.*/
 /* 07-02-2021: Created all other classes, added h2 class.*/
 /* 07-02-2021: Created media for Classes: H1, H2, P */
@@ -6,20 +7,6 @@
 
 
 /* Add styles below this*/
-
-/*Example 2- Mobile First smallest to largest */
-/*settings for smaller screens
-h1 {
-	font-size: 30 px;
-}
-//settings for larger screens
-@media (min-width: 640px){
-h1 	{
-	font-size: 60 px;
-	}
-} 
-/*close media bracket*/
-
 
 /*Mobile First screens*/
 @media only screen and (max-width: 600px){
@@ -113,7 +100,7 @@ p	{
 	display: inline-block;
 	color: black;
 	font-family: times,serif;
-	font-size: 14px;
+	font-size: 24px;
 	font-style: normal;
 	font-weight: normal;
 	outline: none;
@@ -215,13 +202,6 @@ body, html {
 }
 
 
-/*
-@media screen and (max-height: 450px) {
-  	.sidenav {padding-top: 220px;}
-  	.sidenav a {font-size: 12px;}
-}
-*/
-
 .collapsible {
   	/**USE ON PAGE: background-color: #3a7ae0;*/
 	height: 10%; /*reactive*/
@@ -291,6 +271,8 @@ table {
 	font-family: times,serif;
 	font-size:09pt;
  }
+
+
 
 td, th {
   	border: 1px solid #dddddd;
