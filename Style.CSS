@@ -191,7 +191,7 @@ p	{
   	overflow-x: hidden;
   	padding: 0px 0;
 	font-family: times,serif;
-	font-size: 12px;
+	font-size: 14px; /* v1.6 changed from font-size: 12px; to font-size: 14px;*/
 	text-align: Left;
 	z-index: 1;
 	}
