@@ -468,26 +468,65 @@ body, html {
 
 
 
-
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
 table {
   	/*margin-left: 17%; controlled in main class*/
 	width: 80%;
 	border-collapse: collapse;
 	font-family: times,serif;
 	font-size:09pt;
- }
+ 	}
+}
 
 
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+table {
+  	/*margin-left: 17%; controlled in main class*/
+	width: 80%;
+	border-collapse: collapse;
+	font-family: times,serif;
+	font-size:09pt;
+ 	}
+}
 
-td, th {
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+	td, th {
   	border: 1px solid #dddddd;
   	text-align: left;
   	padding: 8px;
+	}
 }
 
-tr:nth-child(even) {
-  background-color: #dddddd;
+	
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+	td, th {
+  	border: 1px solid #dddddd;
+  	text-align: left;
+  	padding: 8px;
+	}
 }
+
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+	tr:nth-child(even) {
+  	background-color: #dddddd;
+	}
+}
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+	tr:nth-child(even) {
+  	background-color: #dddddd;
+	}
+}
+
+
 
 cite { 
   font-style: italic;
