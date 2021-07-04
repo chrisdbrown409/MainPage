@@ -1,10 +1,10 @@
 /*COMMENTS*/
-/* Version: 1.0 */
-/* Restore Point: All is working now */
-/* 07-01-2021: Created file with footer, Sidenav.*/
-/* 07-02-2021: Created all other classes, added h2 class.*/
-/* 07-02-2021: Created media for Classes: H1, H2, P */
-/* v1.0 07-02-2021: set display to none on side nav*/
+/* Current Version: 1.1 */
+/* v0.0 07-01-2021: Created file with footer, Sidenav.*/
+/* v0.0 07-02-2021: Created all other classes, added h2 class.*/
+/* v0.0 07-02-2021: Created media for Classes: H1, H2, P */
+/* v1.0 07-02-2021: set display to none on mobile side nav-verified*/
+/* v1.1 07-02-2021: modified fonts on mobile sidnav and collapsable buttons*/
 
 
 /* Add styles below this*/
@@ -267,11 +267,11 @@ body, html {
   	cursor: pointer;
   	/*padding: 18px; /*non-reactive*/
 	padding: 1%; /*reactive*/
-	width: 65%;
+	width: 95%; /* v1.1 changed width: 65%; to width: 95%;*/
   	border: none;
   	text-align: Left;
   	outline: none;
-  	font-size: 14px;
+  	font-size: 18px; /* v1.1 changed font-size: 14px; to font-size: 18px;*/
 	font-family: times,serif;
 	}
 }
@@ -310,7 +310,7 @@ body, html {
   	color: white;
   	font-weight: bold;
   	float: right;
-  	font-size: 14px;
+  	font-size: 18px; /* v1.1 changed font-size: 14px; to font-size: 18px;*/
 	font-family: times,serif;
 }
 }
