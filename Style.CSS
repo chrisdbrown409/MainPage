@@ -6,7 +6,7 @@
 /* v1.0 07-02-2021: set display to none on mobile side nav-VERIFIED*/
 /* v1.1 07-02-2021: modified fonts on mobile sidnav and collapsable buttons-VERIFIED*/
 /* v1.2 07-02-2021: added displays to footer to footer for both mobile and large- display: inline-block;*/
-
+/* v1.3 07-02-2021: added footermobile class, set dispaly on standard footer mobile to- display: none;*/
 
 /* Add styles below this*/
 
@@ -374,7 +374,28 @@ body, html {
   	background-color: #F8F9F9;
   	font-size: 12px;
 	font-family: times,serif;
+	}
 }
+
+
+/*Mobile First screens*/
+/*v1.3 added footerMobile only*/
+@media only screen and (max-width: 600px){
+.footerMobile{
+	/*position: Fixed; this makes it sticky always at the bottom of the page*/
+	/*margin-left: 17%; controlled by main class*/
+	display: inline-block; /*v1.2 added display: inline-block;*/
+	width: 100%;
+	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
+	left: 0;
+	bottom: 0;
+	background-color: White;
+	color: black;
+	text-align: left;
+  	font-size:12pt; /*changed from 8 to 12 for mobile.*/
+  	font-style:normal;
+	font-family: times,serif;
+ 	}
 }
 
 
@@ -383,7 +404,7 @@ body, html {
 .footer{
 	/*position: Fixed; this makes it sticky always at the bottom of the page*/
 	/*margin-left: 17%; controlled by main class*/
-	display: inline-block; /*v1.2 added display: inline-block;*/
+	display: none; /*v1.2 added display: inline-block;*/ /*v1.3 changed display from display: inline-block; to display: none;*/
 	width: 100%;
 	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
 	left: 0;
@@ -416,6 +437,9 @@ body, html {
 	font-family: times,serif;
  	}
 }
+
+
+
 
 table {
   	/*margin-left: 17%; controlled in main class*/
