@@ -84,7 +84,7 @@ P 	{
 	color: black;
 	display: inline-block;
 	font-family: times,serif;
-	font-size: 14px;
+	font-size: 24px; /*changed from 14px to 24px for mobile */
 	font-style: normal;
 	font-weight: normal;
 	outline: none;
@@ -100,7 +100,7 @@ p	{
 	display: inline-block;
 	color: black;
 	font-family: times,serif;
-	font-size: 24px;
+	font-size: 14px;
 	font-style: normal;
 	font-weight: normal;
 	outline: none;
