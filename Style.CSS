@@ -249,6 +249,27 @@ body, html {
 }
 
 
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.footer{
+	/*position: Fixed; this makes it sticky always at the bottom of the page*/
+	/*margin-left: 17%; controlled by main class*/
+	width: 100%;
+	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
+	left: 0;
+	bottom: 0;
+	background-color: White;
+	color: black;
+	text-align: left;
+  	font-size:12pt; /*changed from 8 to 12 for mobile.*/
+  	font-style:normal;
+	font-family: times,serif;
+ 	}
+}
+
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
 .footer{
 	/*position: Fixed; this makes it sticky always at the bottom of the page*/
 	/*margin-left: 17%; controlled by main class*/
@@ -262,7 +283,8 @@ body, html {
   	font-size:8pt;
   	font-style:normal;
 	font-family: times,serif;
- }
+ 	}
+}
 
 table {
   	/*margin-left: 17%; controlled in main class*/
