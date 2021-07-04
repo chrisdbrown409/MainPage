@@ -68,7 +68,7 @@ h2 	{
 @media only screen and (min-width: 601px){
 h2 	{
 	border: none;
-	color: White;
+	color: black;
 	display: block; /*changed from display: inline-block; to block*/
 	font-family: times,serif;
 	font-size: 20px;
@@ -131,7 +131,7 @@ p	{
 /*Mobile First screens*/
 @media only screen and (max-width: 600px){
 .hero-text {
-  	color: black;
+  	color: white;
 	display: inline-block;
 	font-family: times,serif;
 	font-size:25px;
@@ -510,6 +510,7 @@ table {
   	padding: 8px;
 	}
 }
+
 
 
 /*Mobile First screens*/
