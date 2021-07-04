@@ -62,7 +62,7 @@ h2 	{
 h2 	{
 	border: none;
 	color: Black;
-	display: inline-block;
+	display: block; /*changed from display: inline-block; to block*/
 	font-family: times,serif;
 	font-size: 20px;
 	font-style: normal;
