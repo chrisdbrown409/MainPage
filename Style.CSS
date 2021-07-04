@@ -130,7 +130,7 @@ p	{
 /*Mobile First screens*/
 @media only screen and (max-width: 600px){
 .hero-text {
-  	color: white;
+  	color: black;
 	display: inline-block;
 	font-family: times,serif;
 	font-size:25px;
@@ -271,8 +271,7 @@ body, html {
 	/*margin-left: 14%; controlled by main class*/
   	color: white;
   	cursor: pointer;
-  	/*padding: 18px; /*non-reactive*/
-	padding: 1%; /*reactive*/
+  	padding: 1%; /*reactive*/
 	width: 95%; /* v1.1 changed width: 65%; to width: 95%;*/
   	border: none;
   	text-align: Left;
