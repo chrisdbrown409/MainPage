@@ -472,7 +472,7 @@ body, html {
 @media only screen and (max-width: 600px){
 table {
   	/*margin-left: 17%; controlled in main class*/
-	width: 80%;
+	width: 100%; /*changed width: 80% to width: 100%*/
 	border-collapse: collapse;
 	font-family: times,serif;
 	font-size:09pt;
@@ -484,7 +484,7 @@ table {
 @media only screen and (min-width: 601px){
 table {
   	/*margin-left: 17%; controlled in main class*/
-	width: 80%;
+	width: 100%; /*changed width: 80% to width: 100%*/
 	border-collapse: collapse;
 	font-family: times,serif;
 	font-size:09pt;
