@@ -5,8 +5,9 @@
 /* v0.0 07-02-2021: Created media for Classes: H1, H2, P */
 /* v1.0 07-02-2021: set display to none on mobile side nav-VERIFIED*/
 /* v1.1 07-02-2021: modified fonts on mobile sidnav and collapsable buttons-VERIFIED*/
-/* v1.2 07-02-2021: added displays to footer to footer for both mobile and large- display: inline-block;*/
-/* v1.3 07-02-2021: added footermobile class, set dispaly on standard footer mobile to- display: none;*/
+/* v1.2 07-02-2021: added displays to footer to footer for both mobile and large- display: inline-block;-VERIFIED*/
+/* v1.3 07-02-2021: added footermobile class, set dispaly on standard footer mobile to- display: none; - both footers showing on mobile*/
+/* v1.4 07-02-2021: deleted standard footer for small devices*/
 
 /* Add styles below this*/
 
@@ -171,6 +172,9 @@ p	{
 	z-index: 1;
 	}
 }
+
+/* v1.4 07-02-2021: deleted standard footer for small devices*/
+
 
 /*settings for larger screens*/
 @media only screen and (min-width: 601px){
@@ -399,24 +403,6 @@ body, html {
 }
 
 
-/*Mobile First screens*/
-@media only screen and (max-width: 600px){
-.footer{
-	/*position: Fixed; this makes it sticky always at the bottom of the page*/
-	/*margin-left: 17%; controlled by main class*/
-	display: none; /*v1.2 added display: inline-block;*/ /*v1.3 changed display from display: inline-block; to display: none;*/
-	width: 100%;
-	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
-	left: 0;
-	bottom: 0;
-	background-color: White;
-	color: black;
-	text-align: left;
-  	font-size:12pt; /*changed from 8 to 12 for mobile.*/
-  	font-style:normal;
-	font-family: times,serif;
- 	}
-}
 
 
 /*settings for larger screens*/
