@@ -1,9 +1,10 @@
 /*COMMENTS*/
+/* Version: 1.0 */
 /* Restore Point: All is working now */
 /* 07-01-2021: Created file with footer, Sidenav.*/
 /* 07-02-2021: Created all other classes, added h2 class.*/
 /* 07-02-2021: Created media for Classes: H1, H2, P */
-/*test	3*/
+/* v1.0 07-02-2021: set display to none on side nav*/
 
 
 /* Add styles below this*/
@@ -155,7 +156,7 @@ p	{
 @media only screen and (max-width: 600px){
 .sidenav {
 	height: 100%;
-	display: inline-block;
+	display: none; /*verion: 1.0 changed from display: inline-block; to display: none;*/
 	position: absolute; /*will hold sidenav in place*/
  	width: 12%; /*repsonsive:*15*/
 	top: 32%;
@@ -192,7 +193,7 @@ p	{
 /*Mobile First screens*/
 @media only screen and (max-width: 600px){
 .sidenav a {
-   	display: inline-block;
+   	display: none;/*verion: 1.0 changed from display: inline-block; to display: none;*/
 	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
  	text-decoration: none;
 	text-align: Left;
@@ -233,7 +234,7 @@ body, html {
 @media only screen and (max-width: 600px){
 .main {
   	/*margin-left: 140px; /* Same width as the sidebar + left position in px */
-	margin-left: 17%; /* Same width as the sidebar + left position in px */ /*reponsive*/
+	margin-left: 0%; /* Same width as the sidebar + left position in px */ /*reponsive*/ /*verion: 1.0 changed from margin-left: 17%; to margin-left: 0%;*/
 	padding: 0px 10px;
 	font-style:normal;
 	/*margin-left: 40px;*/
