@@ -268,6 +268,36 @@ body, html {
 
 /*Mobile First screens*/
 @media only screen and (max-width: 600px){
+.aside {
+  	display: none;
+	width: 40%;
+  	padding-left: 5px;
+  	margin-left: 5px;
+  	float: right;
+  	font-style: italic;
+  	background-color: lightgray;
+	}
+}
+
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+.aside {
+  	width: 40%;
+  	padding-left: 5px;
+  	margin-left: 5px;
+  	float: right;
+  	font-style: italic;
+  	background-color: lightgray;
+	}
+	}
+
+
+
+
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
 .collapsible {
   	/**USE ON PAGE: background-color: #3a7ae0;*/
 	height: 10%; /*reactive*/
