@@ -290,7 +290,8 @@ body, html {
 	heigth: 40px;
   	padding-left: 0px;
   	margin-left: 0px;
-  	float: left;
+  	float: right;
+	margin-right: 40px;
   	font-style: italic;
   	background-color: lightgray;
 	}
