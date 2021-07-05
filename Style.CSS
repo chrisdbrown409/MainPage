@@ -10,6 +10,7 @@
 /* v1.4 07-02-2021: added footermobile class for large, set large display: none; -VERIFIED*/
 /* v1.5 07-02-2021: modified collapse views for large screen */
 /* v1.6 07-02-2021: CONTENT MOBILE-changed from font-size: 12px; to font-size: 18px;*/
+/* v1.7 07-05-2021: changed from font-size: 14px; to font-size: 16px;*/
 
 /* test reset 2*/
 
@@ -191,7 +192,7 @@ p	{
   	overflow-x: hidden;
   	padding: 0px 0;
 	font-family: times,serif;
-	font-size: 14px; /* v1.6 changed from font-size: 12px; to font-size: 14px;*/
+	font-size: 16px; /* v1.7 changed from font-size: 14px; to font-size: 16px;*/
 	text-align: Left;
 	z-index: 1;
 	}
@@ -220,7 +221,7 @@ p	{
  	text-decoration: none;
 	text-align: Left;
 	font-family: times,serif;
-  	font-size: 12px;
+  	font-size: 16px; /* v1.7 changed from font-size: 12px; to font-size: 16px;*/
   	color: #2196F3;
   	display: block;
 	}
