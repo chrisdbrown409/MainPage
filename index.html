@@ -10,7 +10,7 @@
 	
 	<script>
 	setTimeout(function(){
-   	 document.getElementById('aap').className = 'waa';
+   	 document.getElementById('aap').className = 'hide';
 	}, 5000);
 	</script>
 	
@@ -28,7 +28,7 @@
 	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),url("https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1955&q=80/");
 	}
 
-p {
+pshow {
     	font-family: times,serif;
 	Font-size: 16pt;
 	font-style:normal;
@@ -37,7 +37,7 @@ p {
     	transition:opacity 500ms;
 }
 
-p.waa {
+p.hide {
 	opacity:0;
 }
 	
@@ -76,7 +76,7 @@ p.waa {
 	</div>
 
 <div class="aside">
-	<p id="aap">A true sign of intelligence is not knowledge but imagination.
+	<pshow id="aap">A true sign of intelligence is not knowledge but imagination.
 	<br />
 	<b>~ Albert Einstein</b></p>
 	</div>	
