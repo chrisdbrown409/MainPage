@@ -1,18 +1,19 @@
 /*COMMENTS*/
 /* Current Version: 1.2 */
-/* v0.0 07-01-2021: Created file with footer, Sidenav.*/
-/* v0.0 07-02-2021: Created all other classes, added h2 class.*/
-/* v0.0 07-02-2021: Created media for Classes: H1, H2, P */
-/* v1.0 07-02-2021: set display to none on mobile side nav-VERIFIED*/
-/* v1.1 07-02-2021: modified fonts on mobile sidnav and collapsable buttons-VERIFIED*/
-/* v1.2 07-02-2021: added displays to footer to footer for both mobile and large- display: inline-block;-VERIFIED*/
-/* v1.3 07-02-2021: added footermobile class for mobile, set dispaly on standard footer mobile to- display: none; - both footers showing on mobile*/
-/* v1.4 07-02-2021: added footermobile class for large, set large display: none; -VERIFIED*/
-/* v1.5 07-02-2021: modified collapse views for large screen */
-/* v1.6 07-02-2021: modified mobile .content changed from font-size: 12px; to font-size: 18px;*/
-/* v1.7 07-05-2021: modified Large .sidnav from font-size: 14px; to font-size: 16px;*/
-/* v1.8 07-05-2021: added width attribute to Large (80%) and mobile (100%) .main class */
-/* v1.9 07-05-2021: added .aside for Large and mobile*/
+/* v0.00 07-01-2021: Created file with footer, Sidenav.*/
+/* v0.00 07-02-2021: Created all other classes, added h2 class.*/
+/* v0.00 07-02-2021: Created media for Classes: H1, H2, P */
+/* v1.00 07-02-2021: set display to none on mobile side nav-VERIFIED*/
+/* v1.01 07-02-2021: modified fonts on mobile sidnav and collapsable buttons-VERIFIED*/
+/* v1.02 07-02-2021: added displays to footer to footer for both mobile and large- display: inline-block;-VERIFIED*/
+/* v1.03 07-02-2021: added footermobile class for mobile, set dispaly on standard footer mobile to- display: none; - both footers showing on mobile*/
+/* v1.04 07-02-2021: added footermobile class for large, set large display: none; -VERIFIED*/
+/* v1.05 07-02-2021: modified collapse views for large screen */
+/* v1.06 07-02-2021: modified mobile .content changed from font-size: 12px; to font-size: 18px;*/
+/* v1.07 07-05-2021: modified Large .sidnav from font-size: 14px; to font-size: 16px;*/
+/* v1.08 07-05-2021: added width attribute to Large (80%) and mobile (100%) .main class */
+/* v1.09 07-05-2021: added .aside for Large and mobile*/
+/* v1.10 07-05-2021: added .asideimage for Large and mobile*/
 
 /* test reset 2*/
 
@@ -295,7 +296,27 @@ body, html {
 	}
 	}
 
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.asideimage {
+  	display: none;
+	heigth: 30%;
+	width: 40%;
+  	padding-left: 5px;
+  	margin-left: 5px;
+  	}
+}
 
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+.asideimage {
+  	width: 100%;
+	heigth: 100%;
+  	padding-left: 5px;
+  	margin-left: 5px;
+  	float: right;
+  	}
+	}
 
 
 
