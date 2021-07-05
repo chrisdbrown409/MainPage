@@ -286,8 +286,8 @@ body, html {
 /*settings for larger screens*/
 @media only screen and (min-width: 601px){
 .aside {
-  	width: 40%;
-	heigth: 30px;
+  	width: 40px;
+	heigth: 40px;
   	padding-left: 0px;
   	margin-left: 0px;
   	float: right;
