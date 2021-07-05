@@ -295,7 +295,7 @@ body, html {
   	font-style: italic;
   	background-color: lightgray;
 	}
-	}
+}
 
 /*Mobile First screens*/
 @media only screen and (max-width: 600px){
@@ -311,11 +311,12 @@ body, html {
 /*settings for larger screens*/
 @media only screen and (min-width: 601px){
 .asideimg {
-  	width:	50%;
-	heigth: 50%;
+  	width:	40%;
+	heigth: 40%;
   	padding-left: 0px;
   	margin-left: 0px;
   	float: right;
+	margin-right: 90px;
   	}
 }
 
