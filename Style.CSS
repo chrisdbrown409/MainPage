@@ -247,7 +247,6 @@ body, html {
 	margin-left: 0%; /* Same width as the sidebar + left position in px */ /*reponsive*/ /*verion: 1.0 changed from margin-left: 17%; to margin-left: 0%;*/
 	padding: 0px 10px;
 	font-style:normal;
-	/*margin-left: 40px;*/
 	font-family: times,serif;
 	color: black;
 	}
@@ -258,11 +257,10 @@ body, html {
 @media only screen and (min-width: 601px){
 .main {
   	/*margin-left: 140px; /* Same width as the sidebar + left position in px */
-	width: 80%; /*ver 1.8 added width*/
+	width: 70%; /*ver 1.8 added width*/
 	margin-left: 17%; /* Same width as the sidebar + left position in px */ /*reponsive*/
 	padding: 0px 10px;
 	font-style:normal;
-	/*margin-left: 40px;*/
 	font-family: times,serif;
 	color: black;
 	}
