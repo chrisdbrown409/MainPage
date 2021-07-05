@@ -286,14 +286,14 @@ body, html {
 /*settings for larger screens*/
 @media only screen and (min-width: 601px){
 .aside {
-  	width: 80px;
-	heigth: 80px;
+  	width: 30%;
+	heigth: 30%;
   	padding-left: 0px;
   	margin-left: 0px;
   	float: right;
 	margin-right: 90px;
   	font-style: italic;
-  	background-color: white;
+  	background-color: lightgray;
 	}
 	}
 
