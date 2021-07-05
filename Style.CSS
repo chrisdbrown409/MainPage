@@ -311,8 +311,8 @@ body, html {
 /*settings for larger screens*/
 @media only screen and (min-width: 601px){
 .asideimg {
-  	width: 100%;
-	heigth: 100%;
+  	width:	50%;
+	heigth: 50%;
   	padding-left: 0px;
   	margin-left: 0px;
   	float: right;
