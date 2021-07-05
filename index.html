@@ -8,6 +8,13 @@
 	<link rel="stylesheet" 		type="text/css" href="Style.CSS">
 	<Title>Chris Brown | Main Page</Title> 
 	
+	<script>
+	function myFunction() { 
+		document.getElementById("mainFrameOne").style.display="none"; 
+		document.getElementById("mainFrameTwo").style.display="block"; 
+	}
+	</script>
+	
 <style>
 .collapsible {
   	background-color: #7FB3D5;
@@ -61,6 +68,12 @@
 	<br />
 	<b>~ Albert Einstein</b><br />
 	</center>
+	<a id="mainFrameOne" onclick="myFunction()" href="#">
+    	mainFrameOne
+	</a>
+	<a id="mainFrameTwo" href="#" style="display:none;">
+    	mainFrameTwo
+	</a>
 	</div>
 	
 		
@@ -191,7 +204,7 @@ for (i = 0; i < coll.length; i++) {
 <div class="footer">
 		<HR>  
   		<b>Repository Information:</b><br />
-  		Version:2.25<br />
+  		Version:2.26<br />
 		CSS Applied: <b>Yes</b><br />
   		Last Update:07-02-2021<br />
   		<HR> 
@@ -200,7 +213,7 @@ for (i = 0; i < coll.length; i++) {
 <!--- added footer mobile with just version number--->
 <div class="footerMobile"> <!---mobile screens--->
 		<HR>  
-   		<b>Repository:</b>Version:2.23<br />
+   		<b>Repository:</b>Version:2.26<br />
 		<HR>  
 	</DIV>
 </body>
