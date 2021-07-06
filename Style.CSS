@@ -542,7 +542,7 @@ table {
 @media only screen and (min-width: 601px){
 table {
   	/*margin-left: 17%; controlled in main class*/
-	width: 95%; /*changed width: 80% to width: 100%*/
+	width: 98%; /*changed width: 80% to width: 100%*/
 	border-collapse: collapse;
 	font-family: times,serif;
 	font-size:09pt;
@@ -551,7 +551,7 @@ table {
 
 /*Mobile First screens*/
 @media only screen and (max-width: 600px){
-	td, th {
+td, th {
   	border: 1px solid #dddddd;
   	text-align: left;
   	padding: 8px;
@@ -562,7 +562,7 @@ table {
 
 /*settings for larger screens*/
 @media only screen and (min-width: 601px){
-	td, th {
+td, th {
   	border: 1px solid #dddddd;
   	text-align: left;
   	padding: 8px;
@@ -573,14 +573,14 @@ table {
 
 /*Mobile First screens*/
 @media only screen and (max-width: 600px){
-	tr:nth-child(even) {
+tr:nth-child(even) {
   	background-color: #dddddd;
 	}
 }
 
 /*settings for larger screens*/
 @media only screen and (min-width: 601px){
-	tr:nth-child(even) {
+tr:nth-child(even) {
   	background-color: #dddddd;
 	}
 }
