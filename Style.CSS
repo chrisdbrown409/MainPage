@@ -234,6 +234,40 @@ p	{
   color: #064579;
 }
 
+/*Mobile First screens- Disappering Message*/
+@media only screen and (max-width: 600px){
+show {
+    	display: none;
+	font-family: times,serif;
+	font-style: italic;
+	Font-size: 15pt;
+	text-align: center;
+	opacity:1;
+	transition:opacity 500ms;
+	}
+}
+
+
+/*settings for larger screens- Disappering Message*/
+@media only screen and (min-width: 601px){
+show {
+    	font-family: times,serif;
+	font-style: italic;
+	Font-size: 15pt;
+	text-align: center;
+	opacity:1;
+	transition:opacity 500ms;
+	}
+}
+
+Show.hide {
+	opacity:0;
+}
+
+
+
+
+
 
 body, html {
   	height: 100%;
