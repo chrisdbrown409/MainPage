@@ -218,7 +218,8 @@ p	{
 		font-family: times,serif;
   		}
 	}
-  
+ 
+@media screen and (max-width: 600px) {
 .sidenavmobile a {float: left;}
   	div.content {margin-left: 0;}
 	}
