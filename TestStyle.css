@@ -213,6 +213,7 @@ p	{
 @media screen and (max-width: 600px) {
   .sidenavmobile {
    		float: left;
+		display: block;
 	  	width: 100%;
     		height: auto;
     		position: relative;
