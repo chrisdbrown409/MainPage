@@ -163,77 +163,42 @@ p	{
 }
 
 
-
-
-
-
-
-
-
-
 /****** SIDE NAV START ****/
-/*Mobile First screens*/
-@media only screen and (max-width: 600px){
 .sidenav {
-	height: 100%;
-	/***display: none; /*verion: 1.0 changed from display: inline-block; to display: none;*/  removed **/
-	display: block; /*verion: 1.0 changed from display: inline-block; to display: none;*/
-	 position: relative; /*will hold sidenav in place--- changed from position: absolute;*/
- 	width: 12%; /*repsonsive:*15*/
-	top: 32%;
-	left: 1%;
-  	background: White;
-  	overflow-x: hidden;
-  	padding: 0px 0;
-	font-family: times,serif;
-	font-size: 12px;
-	text-align: Left;
-	z-index: 1;
-	width: 100%; /** added **/
-    	height: auto; /** added **/
-	}
- .sidenav a {float: left;} /** added **/
- 	 div.content {margin-left: 0;} /** added **/
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
-
-
-/*settings for larger screens*/
-@media only screen and (min-width: 601px){
-.sidenav {
-	height: 100%;
-	/** display: inline-block;  removed **/
-	position: absolute; /*will hold sidenav in place*/
- 	width: 12%; /*repsonsive:*15*/
-	top: 32%;
-	left: 1%;
-  	background: #f1f1f1;
-  	overflow-x: hidden;
-  	padding: 0px 0;
-	font-family: times,serif;
-	font-size: 16px; /* v1.7 changed from font-size: 14px; to font-size: 16px;*/
-	text-align: Left;
-	z-index: 1;
-	}
-}
-
-
-/*Removed sidenav Mobile First screens*/
-
-
-/*settings for larger screens*/
-@media only screen and (min-width: 601px){
 .sidenav a {
-   	display: block; /** changed from display: inline-block; **/
-	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
- 	text-decoration: none;
-	text-align: Left;
-	font-family: times,serif;
-  	font-size: 16px; /* v1.7 changed from font-size: 12px; to font-size: 16px;*/
-  	color: #2196F3;
-  	/***display: block; removed/duplicate ***/
-	}
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
 }
+
+@media screen and (max-width: 700px) {
+  .sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidenav a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+
+
+
+
+
+
+
+
 
 /****** DONT TOUCH THIS ****/
 
