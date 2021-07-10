@@ -1,0 +1,642 @@
+/*COMMENTS*/
+/* Current Version: 1.2 */
+/* v0.00 07-01-2021: Created file with footer, Sidenav.*/
+/* v0.00 07-02-2021: Created all other classes, added h2 class.*/
+/* v0.00 07-02-2021: Created media for Classes: H1, H2, P */
+/* v1.00 07-02-2021: set display to none on mobile side nav-VERIFIED*/
+/* v1.01 07-02-2021: modified fonts on mobile sidnav and collapsable buttons-VERIFIED*/
+/* v1.02 07-02-2021: added displays to footer to footer for both mobile and large- display: inline-block;-VERIFIED*/
+/* v1.03 07-02-2021: added footermobile class for mobile, set dispaly on standard footer mobile to- display: none; - both footers showing on mobile*/
+/* v1.04 07-02-2021: added footermobile class for large, set large display: none; -VERIFIED*/
+/* v1.05 07-02-2021: modified collapse views for large screen */
+/* v1.06 07-02-2021: modified mobile .content changed from font-size: 12px; to font-size: 18px;*/
+/* v1.07 07-05-2021: modified Large .sidnav from font-size: 14px; to font-size: 16px;*/
+/* v1.08 07-05-2021: added width attribute to Large (80%) and mobile (100%) .main class */
+/* v1.09 07-05-2021: added .aside for Large and mobile*/
+/* v1.10 07-05-2021: added .asideimage for Large and mobile*/
+
+/* test reset 2*/
+
+/* Add styles below this*/
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+h1 	{
+	border: none;
+	color: red;
+	display: inline-block;
+	font-family: times,serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	outline: none;
+	padding: 0px 0px 0px 0px; /*TRBL*/
+   	text-align: left;
+	}
+}
+
+/*settings for larger screens*/
+@media only for screen and (min-width: 601px){
+h1 	{
+	border: none;
+	color: black;
+	display: inline-block;
+	font-family: times,serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	outline: none;
+	padding: 0px 0px 0px 0px; /*TRBL*/
+   	text-align: left;
+	}
+}
+	
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+h2 	{
+	border: none;
+	color: black;
+	display: none; /*changed to none*/
+	font-family: times,serif;
+	font-size: 20px; 
+	font-style: normal;
+	font-weight: bold;
+	outline: none;
+	padding: 0px 0px 0px 0px; /*TRBL*/
+   	text-align: Left;
+	}
+}
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+h2 	{
+	border: none;
+	color: black;
+	display: block; /*changed from display: inline-block; to block*/
+	font-family: times,serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	outline: none;
+	padding: 0px 0px 0px 0px; /*TRBL*/
+   	text-align: Left;
+	}
+}
+
+
+
+
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+P 	{
+	border: none;
+	color: black;
+	display: inline-block;
+	font-family: times,serif;
+	font-size: 20px; /*changed from 14px to 20px for mobile */
+	font-style: normal;
+	font-weight: normal;
+	outline: none;
+	padding: 0px 0px 0px 0px; /*TRBL*/
+   	text-align: Left;
+	}
+}
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+p	{
+	border: none;
+	display: inline-block;
+	color: black;
+	font-family: times,serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	outline: none;
+	padding: 0px 0px 0px 0px; /*TRBL*/
+   	text-align: Left;
+	}
+}
+
+
+.hero-image {
+  	/*USE ON PAGE: background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("xxx");*/
+ 	max-width:100%; /*responsive design*/
+	height: 30%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+	/*height:auto; responsive design*/
+}
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.hero-text {
+  	color: white;
+	display: inline-block;
+	font-family: times,serif;
+	font-size:25px;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	text-align: center;
+	transform: translate(-50%, -50%);
+  	}
+}
+  
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+.hero-text {
+  	color: white;
+	display: inline-block;
+	font-family: times,serif;
+	font-size:25px;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	text-align: center;
+	transform: translate(-50%, -50%);
+  	}	
+}
+	
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.sidenav {
+	height: 100%;
+	display: none; /*verion: 1.0 changed from display: inline-block; to display: none;*/
+	position: absolute; /*will hold sidenav in place*/
+ 	width: 12%; /*repsonsive:*15*/
+	top: 32%;
+	left: 1%;
+  	background: White;
+  	overflow-x: hidden;
+  	padding: 0px 0;
+	font-family: times,serif;
+	font-size: 12px;
+	text-align: Left;
+	z-index: 1;
+	}
+}
+
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+.sidenav {
+	height: 100%;
+	display: inline-block;
+	position: absolute; /*will hold sidenav in place*/
+ 	width: 12%; /*repsonsive:*15*/
+	top: 32%;
+	left: 1%;
+  	background: White;
+  	overflow-x: hidden;
+  	padding: 0px 0;
+	font-family: times,serif;
+	font-size: 16px; /* v1.7 changed from font-size: 14px; to font-size: 16px;*/
+	text-align: Left;
+	z-index: 1;
+	}
+}
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.sidenav a {
+   	display: none;/*verion: 1.0 changed from display: inline-block; to display: none;*/
+	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
+ 	text-decoration: none;
+	text-align: Left;
+	font-family: times,serif;
+  	font-size: 12px;
+  	color: #2196F3;
+  	display: block;
+	}
+}
+
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+.sidenav a {
+   	display: inline-block;
+	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
+ 	text-decoration: none;
+	text-align: Left;
+	font-family: times,serif;
+  	font-size: 16px; /* v1.7 changed from font-size: 12px; to font-size: 16px;*/
+  	color: #2196F3;
+  	display: block;
+	}
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+/*Mobile First screens- Disappering Message*/
+@media only screen and (max-width: 600px){
+show {
+    	display: none;
+	font-family: times,serif;
+	font-style: italic;
+	Font-size: 15pt;
+	text-align: center;
+	opacity:1;
+	transition:opacity 500ms;
+	}
+}
+
+
+/*settings for larger screens- Disappering Message*/
+@media only screen and (min-width: 601px){
+show {
+    	font-family: times,serif;
+	font-style: italic;
+	Font-size: 15pt;
+	text-align: center;
+	opacity:1;
+	transition:opacity 500ms;
+	}
+}
+
+Show.hide {
+	opacity:0;
+}
+
+
+
+
+
+
+body, html {
+  	height: 100%;
+  	margin: 0;
+	font-family: times,serif;
+    }
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.main {
+  	/*margin-left: 140px; /* Same width as the sidebar + left position in px */
+	width: 97%; /*ver 1.8 added width*/
+	margin-left: 0%; /* Same width as the sidebar + left position in px */ /*reponsive*/ /*verion: 1.0 changed from margin-left: 17%; to margin-left: 0%;*/
+	padding: 0px 10px;
+	font-style:normal;
+	font-family: times,serif;
+	color: black;
+	}
+}
+
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+.main {
+  	/*margin-left: 140px; /* Same width as the sidebar + left position in px */
+	width: 70%; /*ver 1.8 added width*/
+	margin-left: 17%; /* Same width as the sidebar + left position in px */ /*reponsive*/
+	padding: 0px 10px;
+	font-style:normal;
+	font-family: times,serif;
+	color: black;
+	}
+}
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.aside {
+  	display: none;
+	heigth: 45%;
+	width: 45%;
+  	padding-left: 5px;
+  	margin-left: 5px;
+  	float: right;
+  	font-style: italic;
+  	background-color: lightgray;
+	}
+}
+
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+.aside {
+  	width: 40%;
+	heigth: 40%;
+  	padding-left: 0px;
+  	margin-left: 0px;
+  	float: right;
+	margin-right: 80px;
+  	font-style: italic;
+  	background-color: white;
+	}
+}
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.asideimg {
+  	display: none;
+	heigth: 30%;
+	width: 40%;
+  	padding-left: 5px;
+  	margin-left: 5px;
+  	}
+}
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+.asideimg {
+  	width:	40%;
+	heigth: 40%;
+  	padding-left: 0px;
+  	margin-left: 0px;
+  	float: right;
+	margin-right: 90px;
+  	}
+}
+
+
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.collapsible {
+  	/**USE ON PAGE: background-color: #3a7ae0;*/
+	height: 10%; /*reactive*/
+	/*margin-left: 14%; controlled by main class*/
+  	color: white;
+  	cursor: pointer;
+  	padding: 1%; /*reactive*/
+	width: 95%; /* v1.1 changed width: 65%; to width: 95%;*/
+  	border: none;
+  	text-align: Left;
+  	outline: none;
+  	font-size: 18px; /* v1.1 changed font-size: 14px; to font-size: 18px;*/
+	font-family: times,serif;
+	}
+}
+
+
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+.collapsible {
+  	/**USE ON PAGE: background-color: #3a7ae0;*/
+	height: 10%; /*reactive*/
+	/*margin-left: 14%; controlled by main class*/
+  	color: white;
+  	cursor: pointer;
+  	/*padding: 18px; /*non-reactive*/
+	padding: 1%; /*reactive*/
+	width: 45%; /* v1.5 changed from width: 65%; to width: 40%;*/
+  	border: none;
+  	text-align: Left;
+  	outline: none;
+  	font-size: 14px;
+	font-family: times,serif;
+	}
+}
+
+
+.active, .collapsible:hover {
+  	/**USE ON PAGE: background-color: #2a61b8;*/
+}
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.collapsible:after {
+  	content: '\002B'; /* Unicode character for "plus" sign (+) */
+  	/*margin-left: 14%; controlled by main class*/
+  	color: white;
+  	font-weight: bold;
+  	float: right;
+  	font-size: 18px; /* v1.1 changed font-size: 14px; to font-size: 18px;*/
+	font-family: times,serif;
+}
+}
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+.collapsible:after {
+  	content: '\002B'; /* Unicode character for "plus" sign (+) */
+  	/*margin-left: 14%; controlled by main class*/
+  	color: white;
+  	font-weight: bold;
+  	float: right;
+  	font-size: 14px;
+	font-family: times,serif;
+	}
+}
+
+
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.active:after {
+	content: "\2212"; /* Unicode character for "minus" sign (-) */
+	}
+}
+	
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+.active:after {
+	content: "\2212"; /* Unicode character for "minus" sign (-) */
+	}
+}
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.content {
+  	padding: 0% 0%; /*top,right,bottom,left 18px*/
+	width: 95%; 
+  	/*margin-left: 14%; controlled by main class*/
+ 	max-height: 0;
+  	overflow: hidden;
+  	transition: max-height 0.2s ease-out;
+  	background-color: #F8F9F9;
+  	font-size: 18px; /* v1.6 changed from font-size: 12px; to font-size: 18px;*/
+	font-family: times,serif;
+}
+}
+
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+.content {
+  	padding: 0% 0%; /*top,right,bottom,left 18px*/
+	width: 45%; /* v1.5 changed from width: 91%; to width: 30%;*/
+  	/*margin-left: 14%; controlled by main class*/
+ 	max-height: 0;
+  	overflow: hidden;
+  	transition: max-height 0.2s ease-out;
+  	background-color: #F8F9F9;
+  	font-size: 12px;
+	font-family: times,serif;
+	}
+}
+
+
+/*Mobile First screens*/
+/*v1.3 added footerMobile only*/
+@media only screen and (max-width: 600px){
+.footerMobile{
+	/*position: Fixed; this makes it sticky always at the bottom of the page*/
+	/*margin-left: 17%; controlled by main class*/
+	display: inline-block; /*v1.2 added display: inline-block;*/
+	width: 100%;
+	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
+	left: 0;
+	bottom: 0;
+	background-color: White;
+	color: black;
+	text-align: left;
+  	font-size:12pt; /*changed from 8 to 12 for mobile.*/
+  	font-style:normal;
+	font-family: times,serif;
+ 	}
+}
+
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+.footerMobile{
+	/*position: Fixed; this makes it sticky always at the bottom of the page*/
+	/*margin-left: 17%; controlled by main class*/
+	display: none; /*v1.2 added display: inline-block;*/
+	width: 100%;
+	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
+	left: 0;
+	bottom: 0;
+	background-color: White;
+	color: black;
+	text-align: left;
+  	font-size:12pt; /*changed from 8 to 12 for mobile.*/
+  	font-style:normal;
+	font-family: times,serif;
+ 	}
+}
+
+
+
+
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.footer{
+	/*position: Fixed; this makes it sticky always at the bottom of the page*/
+	/*margin-left: 17%; controlled by main class*/
+	display: none; /*v1.2 added display: inline-block;*/
+	width: 100%;
+	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
+	left: 0;
+	bottom: 0;
+	background-color: White;
+	color: black;
+	text-align: left;
+  	font-size:8pt;
+  	font-style:normal;
+	font-family: times,serif;
+ 	}
+}
+
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+.footer{
+	/*position: Fixed; this makes it sticky always at the bottom of the page*/
+	/*margin-left: 17%; controlled by main class*/
+	display: inline-block; /*v1.2 added display: inline-block;*/
+	width: 100%;
+	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
+	left: 0;
+	bottom: 0;
+	background-color: White;
+	color: black;
+	text-align: left;
+  	font-size:8pt;
+  	font-style:normal;
+	font-family: times,serif;
+ 	}
+}
+
+
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+table {
+  	/*margin-left: 17%; controlled in main class*/
+	width: 95%; /*changed width: 80% to width: 100%*/
+	border-collapse: collapse;
+	font-family: times,serif;
+	font-size:09pt;
+ 	}
+}
+
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+table {
+  	/*margin-left: 17%; controlled in main class*/
+	width: 98%; /*changed width: 80% to width: 100%*/
+	border-collapse: collapse;
+	font-family: times,serif;
+	font-size:09pt;
+ 	}
+}
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+td, th {
+  	border: 1px solid #dddddd;
+  	text-align: left;
+  	padding: 8px;
+	}
+}
+
+	
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+td, th {
+  	border: 1px solid #dddddd;
+  	text-align: left;
+  	padding: 8px;
+	}
+}
+
+
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+tr:nth-child(even) {
+  	background-color: #dddddd;
+	}
+}
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+tr:nth-child(even) {
+  	background-color: #dddddd;
+	}
+}
+
+
+
+cite { 
+  font-style: italic;
+}
+
+/*
+Site References:
+	01. Collapse Ref: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible
+	02. Color Ref: https://blog.hubspot.com/website/change-background-color-html
+  	03. Color Picker: https://www.google.com/search?q=html+color+picker&rlz=1C1ONGR_enUS947US947&oq=html+color&aqs=chrome.2.35i39j69i57j0i433j0i20i263l2j0i433j0l3.6575j0j15&sourceid=chrome&ie=UTF-8
+	04. Email Ref: https://www.tutorialspoint.com/html/html_email_links.htm
+ 	05. hero image: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_hero_image
+	06. HTML Layout Document: https://www.w3schools.com/html/html_layout.asp
+	07. Lists Ref: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_ordered
+	08. Side Nav: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed	
+	09. Side Bar: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed2
+	10. Style Line: <p style="font-family: times, serif; font-size:12pt; font-style:normal">
+	11. https://stackoverflow.com/questions/21993661/css-auto-hide-elements-after-5-seconds
+	
+*/
