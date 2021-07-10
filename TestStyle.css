@@ -161,12 +161,23 @@ p	{
 	transform: translate(-50%, -50%);
   	}	
 }
-	
+
+
+
+
+
+
+
+
+
+
+/****** SIDE NAV START ****/
 /*Mobile First screens*/
 @media only screen and (max-width: 600px){
 .sidenav {
 	height: 100%;
-	display: none; /*verion: 1.0 changed from display: inline-block; to display: none;*/
+	/***display: none; /*verion: 1.0 changed from display: inline-block; to display: none;*/  removed **/
+	display: block; /*verion: 1.0 changed from display: inline-block; to display: none;*/
 	position: absolute; /*will hold sidenav in place*/
  	width: 12%; /*repsonsive:*15*/
 	top: 32%;
@@ -204,7 +215,8 @@ p	{
 /*Mobile First screens*/
 @media only screen and (max-width: 600px){
 .sidenav a {
-   	display: none;/*verion: 1.0 changed from display: inline-block; to display: none;*/
+   	display: none;/*verion: 1.0 changed from display: inline-block; to display: none;*/ 
+	display: block;/*verion: 1.0 changed from display: inline-block; to display: none;*/
 	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
  	text-decoration: none;
 	text-align: Left;
@@ -230,9 +242,27 @@ p	{
 	}
 }
 
+/****** DONT TOUCH THIS ****/
+
 .sidenav a:hover {
   color: #064579;
 }
+
+/****** SIDE NAV FINISH ****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Mobile First screens- Disappering Message*/
 @media only screen and (max-width: 600px){
