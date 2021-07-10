@@ -169,6 +169,7 @@ p	{
 
 /****** SIDE NAV START ****/
 /***large***/
+@media screen and (min-width: 700px){
 .sidenav {
   margin: 0;
   padding: 0;
@@ -177,6 +178,7 @@ p	{
   position: fixed;
   height: 100%;
   overflow: auto;
+}
 }
 	
 .sidenav a {
