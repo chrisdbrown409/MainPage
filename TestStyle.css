@@ -209,7 +209,7 @@ div.content {
 }
 
 
-@media only for screen and (max-width: 600px){
+@media screen and (max-width: 600px){
 .sidenav {
     width: 100%;
     height: auto;
@@ -217,6 +217,7 @@ div.content {
   }
   .sidenav a {float: left;}
   div.content {margin-left: 0;}
+}
 }
 
 
