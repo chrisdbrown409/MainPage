@@ -181,7 +181,20 @@ p	{
   text-decoration: none;
 }
 
-@media screen and (max-width: 700px) {
+/*** dont need this ***/
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/*** dont need this ***/
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+@media screen and (max-width: 601px) {
   .sidenav {
     width: 100%;
     height: auto;
