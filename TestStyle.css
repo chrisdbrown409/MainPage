@@ -223,7 +223,7 @@ p	{
 .sidenavmobile a {float: left;}
   	div.content {margin-left: 0;}
 	}
-}
+
 
 /***
 @media screen and (max-width: 600px){
@@ -239,7 +239,7 @@ p	{
 
 /*** dont need this ***/
 @media screen and (max-width: 600px){
-.sidenav a.active {
+.sidenavmobile a.active {
   	background-color: #04AA6D;
   	color: white;
 	}
@@ -247,7 +247,7 @@ p	{
 
 /*** dont need this ***/
 @media screen and (max-width: 600px){
-.sidenav a:hover:not(.active) {
+.sidenavmobile a:hover:not(.active) {
   	background-color: #555;
   	color: white;
 	}
