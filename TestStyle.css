@@ -161,101 +161,78 @@ p	{
 	transform: translate(-50%, -50%);
   	}	
 }
-
-
-
-
-
-
-/****** SIDE NAV START ****/
-/***large***/
-@media screen and (min-width: 700px){
-.sidenav {
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
-}
 	
-.sidenav a {
-  display: block;
-  color: black;
-  padding: 16px;
-  text-decoration: none;
-}
-
-
-/*** dont need this ***/
-
-.sidenav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
-
-/*** dont need this ***/
-.sidenav a:hover:not(.active) {
-  background-color: #555;
-  color: white;
-}
-
-/*** dont need this ***/
-div.content {
-  margin-left: 200px;
-  padding: 1px 16px;
-  height: 1000px;
-}
-
-@media screen and (max-width: 600px){
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
 .sidenav {
-  	Display: none;
-	margin: 0;
-  	padding: 0;
-  	width: 200px;
-  	background-color: #f1f1f1;
-  	position: fixed;
-  	height: 100%;
-  	overflow: auto;
-}
-}
-
-
-@media screen and (max-width: 600px){
-.sidenavm {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  .sidenavm a {float: left;}
-  div.content {margin-left: 0;}
-}
-}
-
-@media screen and (min-width: 700px){
-.sidenavm {
-    display: none;
-    height: auto;
-    position: relative;
-  }
-  .sidenavm a {float: left;}
-  div.content {margin-left: 0;}
-}
+	height: 100%;
+	display: none; /*verion: 1.0 changed from display: inline-block; to display: none;*/
+	position: absolute; /*will hold sidenav in place*/
+ 	width: 12%; /*repsonsive:*15*/
+	top: 32%;
+	left: 1%;
+  	background: White;
+  	overflow-x: hidden;
+  	padding: 0px 0;
+	font-family: times,serif;
+	font-size: 12px;
+	text-align: Left;
+	z-index: 1;
+	}
 }
 
 
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+.sidenav {
+	height: 100%;
+	display: inline-block;
+	position: absolute; /*will hold sidenav in place*/
+ 	width: 12%; /*repsonsive:*15*/
+	top: 32%;
+	left: 1%;
+  	background: White;
+  	overflow-x: hidden;
+  	padding: 0px 0;
+	font-family: times,serif;
+	font-size: 16px; /* v1.7 changed from font-size: 14px; to font-size: 16px;*/
+	text-align: Left;
+	z-index: 1;
+	}
+}
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.sidenav a {
+   	display: none;/*verion: 1.0 changed from display: inline-block; to display: none;*/
+	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
+ 	text-decoration: none;
+	text-align: Left;
+	font-family: times,serif;
+  	font-size: 12px;
+  	color: #2196F3;
+  	display: block;
+	}
+}
 
 
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+.sidenav a {
+   	display: inline-block;
+	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
+ 	text-decoration: none;
+	text-align: Left;
+	font-family: times,serif;
+  	font-size: 16px; /* v1.7 changed from font-size: 12px; to font-size: 16px;*/
+  	color: #2196F3;
+  	display: block;
+	}
+}
 
-/****** DONT TOUCH THIS ****/
-
-
-/****** SIDE NAV FINISH ****/
-
-
+.sidenav a:hover {
+  color: #064579;
+}
 
 /*Mobile First screens- Disappering Message*/
 @media only screen and (max-width: 600px){
