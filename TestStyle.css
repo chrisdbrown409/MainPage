@@ -176,6 +176,7 @@ p	{
 	font-family: times,serif;
 }
 
+@media screen and (min-width: 601px)
 .sidenav a {
   display: block;
   color: black;
@@ -185,12 +186,14 @@ font-family: times,serif;
 }
 
 /*** dont need this ***/
+@media screen and (min-width: 601px)
 .sidenav a.active {
   background-color: #04AA6D;
   color: white;
 }
 
 /*** dont need this ***/
+@media screen and (min-width: 601px)
 .sidenav a:hover:not(.active) {
   background-color: #555;
   color: white;
@@ -209,7 +212,14 @@ font-family: times,serif;
   div.content {margin-left: 0;}
 }
 
-
+@media screen and (max-width: 600px)
+.sidenavmobile a {
+  display: block;
+  color: black;
+  padding: 4%; /** started at  padding: 16px; ***/
+  text-decoration: none;
+font-family: times,serif;
+}
 
 
 
