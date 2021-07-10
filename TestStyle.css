@@ -167,7 +167,7 @@ p	{
 .sidenav {
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 200px; /**started at   width: 200px; ***/
   background-color: #f1f1f1;
   position: fixed;
   height: 100%;
@@ -199,6 +199,7 @@ p	{
     width: 100%;
     height: auto;
     position: relative;
+    padding: 0px; /**added**/
   }
   .sidenav a {float: left;}
   div.content {margin-left: 0;}
