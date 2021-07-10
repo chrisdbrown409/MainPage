@@ -210,7 +210,7 @@ div.content {
 
 
 @media screen and (max-width: 600px){
-.sidenav {
+.sidenavm {
     width: 100%;
     height: auto;
     position: relative;
@@ -220,6 +220,16 @@ div.content {
 }
 }
 
+@media screen and (min-width: 700px){
+.sidenavm {
+    display: none;
+    height: auto;
+    position: relative;
+  }
+  .sidenav a {float: left;}
+  div.content {margin-left: 0;}
+}
+}
 
 
 
