@@ -168,6 +168,7 @@ p	{
 
 
 /****** SIDE NAV START ****/
+/***large***/
 @media screen and (min-width: 601px){
 .sidenav {
   	margin: 0;
@@ -208,10 +209,11 @@ p	{
 	}
 }
 
-
+/***small***/
 @media screen and (max-width: 600px) {
   .sidenavmobile {
-   		width: 100%;
+   		float: left;
+	  	width: 100%;
     		height: auto;
     		position: relative;
     		padding: 0px; /**added**/
@@ -219,21 +221,19 @@ p	{
   		}
 	}
  
-@media screen and (max-width: 600px) {
-.sidenavmobile a {float: left;}
   	div.content {margin-left: 0;}
 	}
 
 
-/***
 @media screen and (max-width: 600px){
-.sidenavmobile a {
+.sidenavmobile a {float: left;}
   		display: block;
   		color: black;
  	 	padding: 4%; 
   		text-decoration: none;
 		font-family: times,serif;
-		}
+div.content {margin-left: 0;}		
+}
 	}
 ***/
 
