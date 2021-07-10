@@ -178,7 +178,7 @@ p	{
 	height: 100%;
 	/***display: none; /*verion: 1.0 changed from display: inline-block; to display: none;*/  removed **/
 	display: block; /*verion: 1.0 changed from display: inline-block; to display: none;*/
-	position: absolute; /*will hold sidenav in place*/
+	 position: relative; /*will hold sidenav in place--- changed from position: absolute;*/
  	width: 12%; /*repsonsive:*15*/
 	top: 32%;
 	left: 1%;
@@ -189,8 +189,13 @@ p	{
 	font-size: 12px;
 	text-align: Left;
 	z-index: 1;
+	width: 100%; /** added **/
+    	height: auto; /** added **/
 	}
+ .sidenav a {float: left;} /** added **/
+ 	 div.content {margin-left: 0;} /** added **/
 }
+
 
 
 /*settings for larger screens*/
@@ -215,7 +220,7 @@ p	{
 /*Mobile First screens*/
 @media only screen and (max-width: 600px){
 .sidenav a {
-   	display: none;/*verion: 1.0 changed from display: inline-block; to display: none;*/ 
+   	/**display: none;/*verion: 1.0 changed from display: inline-block; to display: none;*/ 
 	display: block;/*verion: 1.0 changed from display: inline-block; to display: none;*/
 	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
  	text-decoration: none;
@@ -223,9 +228,10 @@ p	{
 	font-family: times,serif;
   	font-size: 12px;
   	color: #2196F3;
-  	display: block;
+  	/**display: block;**/
 	}
 }
+
 
 
 /*settings for larger screens*/
