@@ -170,7 +170,7 @@ p	{
 /****** SIDE NAV START ****/
 /***large***/
 
-.sidebar {
+.sidenav {
   margin: 0;
   padding: 0;
   width: 200px;
@@ -180,7 +180,7 @@ p	{
   overflow: auto;
 }
 
-.sidebar a {
+.sidenav a {
   display: block;
   color: black;
   padding: 16px;
@@ -188,13 +188,13 @@ p	{
 }
 
 /*** dont need this ***/
-.sidebar a.active {
+.sidenav a.active {
   background-color: #04AA6D;
   color: white;
 }
 
 /*** dont need this ***/
-.sidebar a:hover:not(.active) {
+.sidenav a:hover:not(.active) {
   background-color: #555;
   color: white;
 }
@@ -207,12 +207,12 @@ div.content {
 }
 
 @media screen and (max-width: 700px) {
-  .sidebar {
+  .sidenav {
     width: 100%;
     height: auto;
     position: relative;
   }
-  .sidebar a {float: left;}
+  .sidenav a {float: left;}
   div.content {margin-left: 0;}
 }
 
