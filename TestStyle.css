@@ -221,20 +221,23 @@ p	{
   		}
 	}
  
-  	div.content {margin-left: 0;}
-	}
+  	
 
 
 @media screen and (max-width: 600px){
-.sidenavmobile a {float: left;}
+.sidenavmobile a {
+		float: left;
   		display: block;
   		color: black;
  	 	padding: 4%; 
   		text-decoration: none;
 		font-family: times,serif;
-div.content {margin-left: 0;}		
-}
 	}
+}	
+	div.content {margin-left: 0;}
+	}
+	
+	
 ***/
 
 /*** dont need this ***/
