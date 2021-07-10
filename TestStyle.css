@@ -169,7 +169,7 @@ p	{
 
 /****** SIDE NAV START ****/
 /***large***/
-
+@media only for screen and (min-width: 601px){
 .sidenav {
   margin: 0;
   padding: 0;
@@ -179,35 +179,44 @@ p	{
   height: 100%;
   overflow: auto;
 }
-
+}
+	
+@media only for screen and (min-width: 601px){
 .sidenav a {
   display: block;
   color: black;
   padding: 16px;
   text-decoration: none;
 }
+}
 
 /*** dont need this ***/
+@media only for screen and (min-width: 601px){
 .sidenav a.active {
   background-color: #04AA6D;
   color: white;
 }
+}
 
 /*** dont need this ***/
+@media only for screen and (min-width: 601px){
 .sidenav a:hover:not(.active) {
   background-color: #555;
   color: white;
 }
+}
 
 /*** dont need this ***/
+@media only for screen and (min-width: 601px){
 div.content {
   margin-left: 200px;
   padding: 1px 16px;
   height: 1000px;
 }
+}
 
-@media screen and (max-width: 700px) {
-  .sidenav {
+@media only for screen and (max-width: 600px){
+.sidenav {
     width: 100%;
     height: auto;
     position: relative;
@@ -215,6 +224,7 @@ div.content {
   .sidenav a {float: left;}
   div.content {margin-left: 0;}
 }
+
 
 
 
