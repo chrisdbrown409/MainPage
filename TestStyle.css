@@ -169,94 +169,52 @@ p	{
 
 /****** SIDE NAV START ****/
 /***large***/
-@media screen and (min-width: 601px){
-.sidenav {
-  	margin: 0;
-  	padding: 0;
-  	width: 12%; /**started at   width: 200px; ***/
-  	background-color: #f1f1f1;
-  	position: absolute; /**started at  position: fixed;  ***/
-  	height: 100%;
-  	overflow: auto;
-	font-family: times,serif;
-	}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
-@media screen and (min-width: 601px){
-.sidenav a {
-  	display: block;
-  	color: black;
-  	padding: 4%; /** started at  padding: 16px; ***/
-  	text-decoration: none;
-	font-family: times,serif;
-	}
-}
-	
-
-/*** dont need this ***/
-@media screen and (min-width: 601px){
-.sidenav a.active {
-  	background-color: #04AA6D;
-  	color: white;
-	}
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
 }
 
 /*** dont need this ***/
-@media screen and (min-width: 601px){
-.sidenav a:hover:not(.active) {
-  	background-color: #555;
-  	color: white;
-	}
-}
-
-/***small***/
-@media screen and (max-width: 600px) {
-  .sidenavmobile {
-   		float: left;
-		display: block;
-	  	width: 100%;
-    		height: auto;
-    		position: relative;
-    		padding: 0px; /**added**/
-		font-family: times,serif;
-  		}
-	}
- 
-  	
-
-
-@media screen and (max-width: 600px){
-.sidenavmobile a {
-		float: left;
-  		display: block;
-  		color: black;
- 	 	padding: 4%; 
-  		text-decoration: none;
-		font-family: times,serif;
-	}
-}	
-	div.content {margin-left: 0;}
-	}
-	
-	
-***/
-
-/*** dont need this ***/
-@media screen and (max-width: 600px){
-.sidenavmobile a.active {
-  	background-color: #04AA6D;
-  	color: white;
-	}
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
 }
 
 /*** dont need this ***/
-@media screen and (max-width: 600px){
-.sidenavmobile a:hover:not(.active) {
-  	background-color: #555;
-  	color: white;
-	}
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
 }
 
+/*** dont need this ***/
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
 
 
 
