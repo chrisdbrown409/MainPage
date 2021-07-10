@@ -225,15 +225,17 @@ p	{
 	}
 }
 
+/***
 @media screen and (max-width: 600px){
 .sidenavmobile a {
   		display: block;
   		color: black;
- 	 	padding: 4%; /** started at  padding: 16px; ***/
+ 	 	padding: 4%; 
   		text-decoration: none;
 		font-family: times,serif;
 		}
 	}
+***/
 
 /*** dont need this ***/
 @media screen and (max-width: 600px){
