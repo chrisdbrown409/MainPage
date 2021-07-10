@@ -182,13 +182,13 @@ p	{
 }
 
 /*** dont need this ***/
-.sidebar a.active {
+.sidenav a.active {
   background-color: #04AA6D;
   color: white;
 }
 
 /*** dont need this ***/
-.sidebar a:hover:not(.active) {
+.sidenav a:hover:not(.active) {
   background-color: #555;
   color: white;
 }
