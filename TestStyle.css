@@ -177,7 +177,7 @@ p	{
 .sidenav a {
   display: block;
   color: black;
-  padding: 16px;
+  padding: 2%; /** started at  padding: 16px; ***/
   text-decoration: none;
 }
 
