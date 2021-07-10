@@ -223,6 +223,7 @@ p	{
 .sidenavmobile a {float: left;}
   	div.content {margin-left: 0;}
 	}
+}
 
 @media screen and (max-width: 600px){
 .sidenavmobile a {
