@@ -217,21 +217,8 @@ p	{
 	}
 }
 
-/*Mobile First screens*/
-@media only screen and (max-width: 600px){
-.sidenav a {
-   	/**display: none;/*verion: 1.0 changed from display: inline-block; to display: none;*/ 
-	display: block;/*verion: 1.0 changed from display: inline-block; to display: none;*/
-	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
- 	text-decoration: none;
-	text-align: Left;
-	font-family: times,serif;
-  	font-size: 12px;
-  	color: #2196F3;
-  	/**display: block;**/
-	}
-}
 
+/*Removed sidenav Mobile First screens*/
 
 
 /*settings for larger screens*/
