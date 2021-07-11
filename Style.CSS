@@ -162,13 +162,72 @@ p	{
   	}	
 }
 	
+/**Side nav start***/
+
 /*Mobile First screens*/
 @media only screen and (max-width: 600px){
 .sidenav {
+	display: none;
+	}
+}
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.sidenav a {
+   	display: none;/*verion: 1.0 changed from display: inline-block; to display: none;*/
+	}
+}
+
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+.sidenav {
 	height: 100%;
-	display: none; /*verion: 1.0 changed from display: inline-block; to display: none;*/
+	display: block; /*** changed from display: inline-block;***/
 	position: absolute; /*will hold sidenav in place*/
  	width: 12%; /*repsonsive:*15*/
+	top: 32%;
+	left: 1%;
+  	/***background: White;***/
+	background: #f1f1f1;
+  	overflow-x: hidden;
+  	padding: 0px 0px 0px 1%;
+	font-family: times,serif;
+	font-size: 16px; /* v1.7 changed from font-size: 14px; to font-size: 16px;*/
+	text-align: Left;
+	z-index: 1;
+	}
+}
+
+
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+.sidenav a {
+   	display: block; /*** changed from display: inline-block;***/
+	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
+ 	text-decoration: none;
+	text-align: Left;
+	font-family: times,serif;
+  	font-size: 16px; /* v1.7 changed from font-size: 12px; to font-size: 16px;*/
+  	color: #2196F3;
+  	/***display: block; disabled ***/
+	}
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+/***side NAVM START ***/
+
+
+/*Mobile First screens*/
+@media only screen and (max-width: 600px){
+.sidenavmobile {
+	/***height: 100%; disabled ***/
+	display: block; /*verion: 1.0 changed from display: inline-block; to display: none;*/
+	/***position: absolute; /*will hold sidenav in place*//***
+ 	/***width: 12%; /*repsonsive:*15*/disabled ***/
 	top: 32%;
 	left: 1%;
   	background: White;
@@ -178,32 +237,15 @@ p	{
 	font-size: 12px;
 	text-align: Left;
 	z-index: 1;
-	}
-}
-
-
-/*settings for larger screens*/
-@media only screen and (min-width: 601px){
-.sidenav {
-	height: 100%;
-	display: inline-block;
-	position: absolute; /*will hold sidenav in place*/
- 	width: 12%; /*repsonsive:*15*/
-	top: 32%;
-	left: 1%;
-  	background: White;
-  	overflow-x: hidden;
-  	padding: 0px 0;
-	font-family: times,serif;
-	font-size: 16px; /* v1.7 changed from font-size: 14px; to font-size: 16px;*/
-	text-align: Left;
-	z-index: 1;
+	width: 100%; /**added***/
+	height: auto; /**added***/
+    	position: relative; /**added***/
 	}
 }
 
 /*Mobile First screens*/
 @media only screen and (max-width: 600px){
-.sidenav a {
+.sidenavmobile a {
    	display: none;/*verion: 1.0 changed from display: inline-block; to display: none;*/
 	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
  	text-decoration: none;
@@ -218,21 +260,20 @@ p	{
 
 /*settings for larger screens*/
 @media only screen and (min-width: 601px){
-.sidenav a {
-   	display: inline-block;
-	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
- 	text-decoration: none;
-	text-align: Left;
-	font-family: times,serif;
-  	font-size: 16px; /* v1.7 changed from font-size: 12px; to font-size: 16px;*/
-  	color: #2196F3;
-  	display: block;
+.sidenavmobile {
+	display: none;
 	}
 }
 
-.sidenav a:hover {
-  color: #064579;
+/*settings for larger screens*/
+@media only screen and (min-width: 601px){
+.sidenavmobile a {
+   	display: none; /***display: inline-block; to none***/
+	}
 }
+
+
+/***side nav stop***/
 
 /*Mobile First screens- Disappering Message*/
 @media only screen and (max-width: 600px){
