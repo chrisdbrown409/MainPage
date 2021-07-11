@@ -188,7 +188,8 @@ p	{
  	width: 12%; /*repsonsive:*15*/
 	top: 32%;
 	left: 1%;
-  	background: White;
+  	/***background: White;***/
+	background-color: #04AA6D;
   	overflow-x: hidden;
   	padding: 0px 0;
 	font-family: times,serif;
