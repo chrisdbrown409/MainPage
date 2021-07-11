@@ -224,10 +224,10 @@ p	{
 /*Mobile First screens*/
 @media only screen and (max-width: 600px){
 .sidenavmobile {
-	height: 100%;
+	/***height: 100%; disabled ***/
 	display: block; /*verion: 1.0 changed from display: inline-block; to display: none;*/
-	position: absolute; /*will hold sidenav in place*/
- 	width: 12%; /*repsonsive:*15*/
+	/***position: absolute; /*will hold sidenav in place*//***
+ 	/***width: 12%; /*repsonsive:*15*/disabled ***/
 	top: 32%;
 	left: 1%;
   	background: White;
@@ -237,8 +237,23 @@ p	{
 	font-size: 12px;
 	text-align: Left;
 	z-index: 1;
+	width: 100%; /**added***/
+	height: auto; /**added***/
+    	position: relative; /**added***/
 	}
 }
+
+/***
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+***/
 
 
 /*Mobile First screens*/
