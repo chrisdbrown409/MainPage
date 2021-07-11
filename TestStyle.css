@@ -188,7 +188,7 @@ p	{
 @media only screen and (min-width: 601px){
 .sidenav {
 	height: 100%;
-	display: inline-block;
+	display: block; /*** changed from display: inline-block;***/
 	position: absolute; /*will hold sidenav in place*/
  	width: 12%; /*repsonsive:*15*/
 	top: 32%;
@@ -221,14 +221,14 @@ p	{
 /*settings for larger screens*/
 @media only screen and (min-width: 601px){
 .sidenav a {
-   	display: inline-block;
+   	display: block; /*** changed from display: inline-block;***/
 	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
  	text-decoration: none;
 	text-align: Left;
 	font-family: times,serif;
   	font-size: 16px; /* v1.7 changed from font-size: 12px; to font-size: 16px;*/
   	color: #2196F3;
-  	display: block;
+  	/***display: block; disabled ***/
 	}
 }
 
