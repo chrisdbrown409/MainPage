@@ -218,16 +218,16 @@ p	{
   color: #064579;
 }
 
-/***side NAVM START ***/
+/***side NAVMOBILE START ***/
 
 
 /*Mobile First screens*/
 @media only screen and (max-width: 600px){
 .sidenavmobile {
 	/***height: 100%; disabled ***/
-	display: flex; /*verion: 1.0 changed from display: inline-block; to display: none;*/
-	/***position: absolute; /*will hold sidenav in place*//***
- 	/***width: 12%; /*repsonsive:*15*/ /***disabled ***/
+	display: flex; /*verion: 1.0 changed from display: inline-block; to display: none;*/ /***changed display: block; ***/
+	/***position: absolute; /*will hold sidenav in place*/
+ 	/***width: 12%; /*repsonsive:*15*/disabled ***/
 	top: 32%;
 	left: 1%;
   	background: White;
@@ -235,29 +235,29 @@ p	{
   	padding: 0px 0;
 	font-family: times,serif;
 	font-size: 12px;
-	text-align: center;
+	text-align: center; /*** changed from left***/
 	z-index: 1;
 	width: 100%; /**added***/
 	height: auto; /**added***/
     	position: relative; /**added***/
-	justify-content: center;
+	justify-content:center;
 	}
 }
 
 /*Mobile First screens*/
 @media only screen and (max-width: 600px){
 .sidenavmobile a {
-   	display: flex;/*verion: 1.0 changed from display: inline-block; to display: none;*/
+   	/***display: none;/*verion: 1.0 changed from display: inline-block; to display: none;*/ ****?
 	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
  	text-decoration: none;
-	text-align: center;
+	text-align: center;  /*** changed from left***/
 	font-family: times,serif;
   	font-size: 12px;
   	color: #2196F3;
-	text-align: center;
-	justify-content: center;
-  	/***display: none;***/
+  	display: flex;
+	justify-content:center;
 	}
+	
 }
 
 
@@ -527,7 +527,7 @@ body, html {
 .footerMobile{
 	/*position: Fixed; this makes it sticky always at the bottom of the page*/
 	/*margin-left: 17%; controlled by main class*/
-	display: block; /*v1.2 added display: inline-block;*/
+	display: inline-block; /*v1.2 added display: inline-block;*/
 	width: 100%;
 	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
 	left: 0;
@@ -538,7 +538,7 @@ body, html {
   	font-size:12pt; /*changed from 8 to 12 for mobile.*/
   	font-style:normal;
 	font-family: times,serif;
-	}
+ 	}
 }
 
 
