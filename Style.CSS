@@ -366,7 +366,8 @@ body, html {
   	padding-left: 0px;
   	margin-left: 0px;
   	float: right;
-	margin-right: 80px;
+	margin-right: 70px;
+	align-content: center; /*** trying to center quote***/
   	font-style: italic;
   	background-color: lightgray; /*** was white ***/
 	}
