@@ -524,7 +524,7 @@ body, html {
 .footerMobile{
 	/*position: Fixed; this makes it sticky always at the bottom of the page*/
 	/*margin-left: 17%; controlled by main class*/
-	display: inline-block; /*v1.2 added display: inline-block;*/
+	display: flex; /*v1.2 added display: inline-block;*/
 	width: 100%;
 	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
 	left: 0;
@@ -535,6 +535,7 @@ body, html {
   	font-size:12pt; /*changed from 8 to 12 for mobile.*/
   	font-style:normal;
 	font-family: times,serif;
+	justify-content: center;
  	}
 }
 
