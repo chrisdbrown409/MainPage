@@ -240,7 +240,7 @@ p	{
 	width: 100%; /**added***/
 	height: auto; /**added***/
     	position: relative; /**added***/
-	justify-content: center;
+	/***justify-content: center;***/
 	}
 }
 
