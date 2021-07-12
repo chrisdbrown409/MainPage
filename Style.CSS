@@ -235,12 +235,12 @@ p	{
   	padding: 0px 0;
 	font-family: times,serif;
 	font-size: 12px;
-	text-align: Left;
+	text-align: center;
 	z-index: 1;
 	width: 100%; /**added***/
 	height: auto; /**added***/
     	position: relative; /**added***/
-	/***justify-content: center;***/
+	justify-content: center;
 	}
 }
 
