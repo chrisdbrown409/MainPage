@@ -241,6 +241,7 @@ p	{
 	height: auto; /**added***/
     	position: relative; /**added***/
 	justify-content:center;
+	background-color:lightgrey;
 	}
 }
 
@@ -256,6 +257,7 @@ p	{
   	color: #2196F3;
   	display: flex;
 	justify-content:center;
+	background-color:lightgrey;
 	}
 	
 }
