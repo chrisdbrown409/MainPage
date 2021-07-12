@@ -241,14 +241,14 @@ p	{
 	height: auto; /**added***/
     	position: relative; /**added***/
 	justify-content:center;
-	/****background:lightgrey;***/
+	background:lightgrey;
 	}
 }
 
 /*Mobile First screens*/
 @media only screen and (max-width: 600px){
 .sidenavmobile a {
-   	/***display: none;/*verion: 1.0 changed from display: inline-block; to display: none;*/ ****?
+   	display: none;/*verion: 1.0 changed from display: inline-block; to display: none;*/
 	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
  	text-decoration: none;
 	text-align: center;  /*** changed from left***/
