@@ -225,7 +225,7 @@ p	{
 @media only screen and (max-width: 600px){
 .sidenavmobile {
 	/***height: 100%; disabled ***/
-	display: block; /*verion: 1.0 changed from display: inline-block; to display: none;*/
+	display: flex; /*verion: 1.0 changed from display: inline-block; to display: none;*/
 	/***position: absolute; /*will hold sidenav in place*//***
  	/***width: 12%; /*repsonsive:*15*/disabled ***/
 	top: 32%;
@@ -240,6 +240,7 @@ p	{
 	width: 100%; /**added***/
 	height: auto; /**added***/
     	position: relative; /**added***/
+	justify-content: center;
 	}
 }
 
@@ -253,7 +254,8 @@ p	{
 	font-family: times,serif;
   	font-size: 12px;
   	color: #2196F3;
-  	display: block;
+  	display: flex;
+	justify-content: center;
 	}
 }
 
