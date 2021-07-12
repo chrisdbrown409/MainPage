@@ -362,11 +362,11 @@ body, html {
 @media only screen and (min-width: 601px){
 .aside {
   	width: 40%;
-	heigth: 40%;
+	heigth: 50%;
   	padding-left: 0px;
   	margin-left: 0px;
   	float: right;
-	margin-right: 70px;
+	margin-right: 60px;
 	/*** align-content: center; trying to center quote does not work***/
 	text-align: center;
   	font-style: italic;
