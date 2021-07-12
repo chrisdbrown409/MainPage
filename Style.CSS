@@ -230,7 +230,7 @@ p	{
  	/***width: 12%; /*repsonsive:*15*/disabled ***/
 	top: 32%;
 	left: 1%;
-  	/****background: White;***/
+  	background: White;
   	overflow-x: hidden;
   	padding: 0px 0;
 	font-family: times,serif;
@@ -241,7 +241,7 @@ p	{
 	height: auto; /**added***/
     	position: relative; /**added***/
 	justify-content:center;
-	background:lightgrey;
+	/****background:lightgrey;***/
 	}
 }
 
@@ -257,7 +257,7 @@ p	{
   	color: #2196F3;
   	display: flex;
 	justify-content:center;
-	background-color:lightgrey;
+	/****background:lightgrey;***/
 	}
 	
 }
