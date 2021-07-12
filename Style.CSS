@@ -362,7 +362,7 @@ body, html {
 @media only screen and (min-width: 601px){
 .aside {
   	width: 40%;
-	heigth: 50%;
+	heigth: 55%;
   	padding-left: 0px;
   	margin-left: 0px;
   	float: right;
@@ -370,7 +370,7 @@ body, html {
 	/*** align-content: center; trying to center quote does not work***/
 	text-align: center;
   	font-style: italic;
-  	background-color: lightgray; /*** was white ***/
+  	background-color: white; /*** lightgray ***/
 	}
 }
 
