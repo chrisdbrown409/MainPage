@@ -235,7 +235,7 @@ p	{
   	padding: 0px 0;
 	font-family: times,serif;
 	font-size: 12px;
-	text-align: Left;
+	text-align: center; /*** changed from left***/
 	z-index: 1;
 	width: 100%; /**added***/
 	height: auto; /**added***/
@@ -249,7 +249,7 @@ p	{
    	display: none;/*verion: 1.0 changed from display: inline-block; to display: none;*/
 	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
  	text-decoration: none;
-	text-align: Left;
+	text-align: center;  /*** changed from left***/
 	font-family: times,serif;
   	font-size: 12px;
   	color: #2196F3;
